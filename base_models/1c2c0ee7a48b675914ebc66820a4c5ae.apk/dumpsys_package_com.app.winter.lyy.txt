@@ -1,0 +1,64 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        414d6950 com.app.winter.lyy/.WallpaperSnowActivity filter 417e4700
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        416d6610 com.app.winter.lyy/com.g3app.BroadCastReceiver filter 415bcbb8
+
+  Non-Data Actions:
+      com.g3app.pushservice:
+        416d6610 com.app.winter.lyy/com.g3app.BroadCastReceiver filter 415c74c8
+      android.intent.action.BOOT_COMPLETED:
+        416d6610 com.app.winter.lyy/com.g3app.BroadCastReceiver filter 41626ca0
+      com.g3app.showapp.downloadcompleted:
+        416d6610 com.app.winter.lyy/com.g3app.BroadCastReceiver filter 416b8948
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.wallpaper.WallpaperService:
+        417fd7a0 com.app.winter.lyy/.WinterWallpaperService filter 4175d6f0
+ 
+Packages:
+  Package [com.app.winter.lyy] (418dd830):
+    userId=10050 gids=[3003, 1015, 1028]
+    sharedUser=null
+    pkg=Package{4161eaa8 com.app.winter.lyy}
+    codePath=/data/app/com.app.winter.lyy-1.apk
+    resourcePath=/data/app/com.app.winter.lyy-1.apk
+    nativeLibraryPath=/data/data/com.app.winter.lyy/lib
+    versionCode=8
+    applicationInfo=ApplicationInfo{4183d6a0 com.app.winter.lyy}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP STOPPED ]
+    versionName=1.7
+    dataDir=/data/data/com.app.winter.lyy
+    targetSdk=8
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2018-05-24 15:15:47
+    firstInstallTime=2018-05-24 15:15:50
+    lastUpdateTime=2018-05-24 15:15:50
+    signatures=PackageSignatures{417e50d8 [41764b88]}
+    permissionsFixed=true haveGids=true
+    pkgFlags=0x0 installStatus=1 User 0:  stopped=true enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.SET_WALLPAPER
+      android.permission.GET_TASKS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.READ_PHONE_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.CHANGE_WIFI_STATE
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.VIBRATE
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS

@@ -1,0 +1,119 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e19665d vbkoxh.cswnpr/.vmbatqef filter 216ec58
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        6ef1bd2 vbkoxh.cswnpr/.fcynudr filter 832c735
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        4b504a3 vbkoxh.cswnpr/.yaqxbtyoan filter 60fad3b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.HOME"
+          AutoVerify=false
+      android.provider.Telephony.SMS_RECEIVED:
+        18ed3a0 vbkoxh.cswnpr/dsrhki.yjgfqjejkjh.wkuljwsx filter e4f27ca
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+          mPriority=999, mHasPartialTypes=false
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        c0b0b59 vbkoxh.cswnpr/dsrhki.yjgfqjejkjh.gbjutaxgp filter aae56c
+          Action: "dsrhki.yjgfqjejkjh.gbjutaxgpStart76"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      dsrhki.yjgfqjejkjh.gbjutaxgpStart76:
+        c0b0b59 vbkoxh.cswnpr/dsrhki.yjgfqjejkjh.gbjutaxgp filter aae56c
+          Action: "dsrhki.yjgfqjejkjh.gbjutaxgpStart76"
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [vbkoxh.cswnpr]
+      Signing KeySets: 38
+
+Packages:
+  Package [vbkoxh.cswnpr] (dff231e):
+    userId=10095
+    pkg=Package{98947ff vbkoxh.cswnpr}
+    codePath=/data/app/vbkoxh.cswnpr-1
+    resourcePath=/data/app/vbkoxh.cswnpr-1
+    legacyNativeLibraryDir=/data/app/vbkoxh.cswnpr-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=7 targetSdk=7
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{19d89cc vbkoxh.cswnpr}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/vbkoxh.cswnpr
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2018-05-31 06:35:40
+    firstInstallTime=2018-05-31 06:35:40
+    lastUpdateTime=2018-05-31 06:35:40
+    signatures=PackageSignatures{fd80415 [4b8d7288]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.android.alarm.permission.SET_ALARM
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.UPDATE_DEVICE_STATS
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_SMS
+      android.permission.SEND_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.READ_CONTACTS
+      android.permission.WAKE_LOCK
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_CALL_LOG
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.READ_SMS: granted=true
+      android.permission.READ_CALL_LOG: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.RECEIVE_SMS: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.READ_PHONE_STATE: granted=true
+      android.permission.SEND_SMS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.READ_CONTACTS: granted=true
+    User 0: ceDataInode=98856 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [vbkoxh.cswnpr]
+    Instruction Set: x86
+      path: /data/app/vbkoxh.cswnpr-1/base.apk
+      status: /data/app/vbkoxh.cswnpr-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]

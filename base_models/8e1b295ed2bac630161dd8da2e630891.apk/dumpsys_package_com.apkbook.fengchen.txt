@@ -1,0 +1,72 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        41645970 com.apkbook.fengchen/.StartActivity filter 41632730
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.UMS_CONNECTED:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.net.conn.MEDIA_NOFS:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.intent.action.UMS_DISCONNECTED:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.net.wifi.PICK_WIFI_WORK:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.provider.Telephony.SMS_RECEIVED:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.intent.action.BOOT_COMPLETED:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.intent.action.USER_PRESENT:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.intent.action.INPUT_METHOD_CHANGED:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.intent.action.ACTION_POWER_CONNECTED:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+      android.net.conn.CONNECTIVITY_CHANGE:
+        417611b8 com.apkbook.fengchen/com.android.view.custom.BaseABroadcastReceiver filter 416e7a38
+ 
+Packages:
+  Package [com.apkbook.fengchen] (4187fbb0):
+    userId=10050 gids=[3003, 1015, 1028]
+    sharedUser=null
+    pkg=Package{417c4f00 com.apkbook.fengchen}
+    codePath=/data/app/com.apkbook.fengchen-1.apk
+    resourcePath=/data/app/com.apkbook.fengchen-1.apk
+    nativeLibraryPath=/data/data/com.apkbook.fengchen/lib
+    versionCode=2
+    applicationInfo=ApplicationInfo{417b2ce8 com.apkbook.fengchen}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP STOPPED ]
+    versionName=1.1
+    dataDir=/data/data/com.apkbook.fengchen
+    targetSdk=4
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2018-05-06 11:41:56
+    firstInstallTime=2018-05-06 11:42:00
+    lastUpdateTime=2018-05-06 11:42:00
+    signatures=PackageSignatures{41765638 [416dc308]}
+    permissionsFixed=true haveGids=true
+    pkgFlags=0x0 installStatus=1 User 0:  stopped=true enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.SEND_SMS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_CALL_LOG
+      android.permission.WRITE_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.CALL_PHONE
+      android.permission.READ_CONTACTS
+      android.permission.WRITE_CONTACTS
+      android.permission.RESTART_PACKAGES
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.DISABLE_KEYGUARD
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_SMS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.WRITE_SETTINGS
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.READ_CALL_LOG
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE

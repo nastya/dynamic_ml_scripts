@@ -1,0 +1,1589 @@
+{
+    "7fb8ffe5caad3061a652e32d24bfd002": {
+        "11021~key": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11040~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10959~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11000~touch(None,None)": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10872~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10931~touch(None,None)": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10899~touch(None,None)": {
+            "reaction": [], 
+            "endState": "46fdf65b8145eb814a7f01a2599d78c9"
+        }, 
+        "10883~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10994~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10976~scroll": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11038~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11011~touch(None,None)": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11032~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10982~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10953~scroll": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11026~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11006~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10971~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10987~long_touch": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10888~touch(None,None)": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10926~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11041~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10942~scroll": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10894~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11037~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10948~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "11016~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10937~intent": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10877~touch(None,None)": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }, 
+        "10965~scroll": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }
+    }, 
+    "46fdf65b8145eb814a7f01a2599d78c9": {
+        "10910~touch(None,None)": {
+            "reaction": [], 
+            "endState": "4b638a1d149fe44b2248bf22361c0f1a"
+        }, 
+        "10905~intent": {
+            "reaction": [], 
+            "endState": "46fdf65b8145eb814a7f01a2599d78c9"
+        }
+    }, 
+    "7904b70c9124c82b2574aea0c9f330cd": {
+        "10799~key": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->Jk7H.PwcD", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/Jk7H.PwcD-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->Jk7H.PwcD", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/Jk7H.PwcD/shared_prefs/settings.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2263726561746564222076616c75653d227472", 
+                        "id": "1663036305"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "685375681"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33370a", 
+                        "id": "608511122"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1830533660"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "28380116"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "2081199935"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "1587260422"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "1754287290"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "1115746441"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd2322", 
+                        "id": "1373509392"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "1129819194"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c7461736b207461736b5f69643d22333722207265616c5f61637469766974793d224a6b37482e50776344", 
+                        "id": "133647463"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "107432295"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "704453683"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1086309592"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "id": "1092724841"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "901518019"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->Jk7H.PwcD", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/Jk7H.PwcD/shared_prefs/settings.xml", 
+                        "id": "912727839"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->Jk7H.PwcD", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/Jk7H.PwcD/shared_prefs/settings.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2263726561746564222076616c75653d227472", 
+                        "id": "912727839"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->Jk7H.PwcD", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/Jk7H.PwcD/shared_prefs/settings.xml", 
+                        "id": "725733452"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->Jk7H.PwcD", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/Jk7H.PwcD/shared_prefs/settings.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2263726561746564222076616c75653d227472", 
+                        "id": "725733452"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "id": "1955464717"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "157772000"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd504e470d0a1a0a", 
+                        "id": "258117144"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000000d49484452", 
+                        "id": "1037521590"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "050605", 
+                        "id": "1389680393"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "1364377369"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "78efbfbdefbfbd6fefbfbd5defbfbd79efbfbdefbfbd55efbfbd7eefbfbd392defbfbdefbfbd7427efbfbdccb213deac34efbfbd2522efbfbdc98defbfbd34efbfbdefbfbdefbfbd0d6817efbfbdefbfbd0c2cefbfbd01224d0278391e1167efbfbd311503efbfbd10efbfbdefbfbd553cefbfbdefbfbdefbfbd6067efbfbd0c266b26400c2befbfbd0defbfbd48efbfbd6e612c6cefbfbd32efbfbd4cefbfbd617b47efbfbd", 
+                        "id": "44159979"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdc9b24d", 
+                        "id": "299066215"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "2048435033"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "1094656909"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "313749007"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd5256", 
+                        "id": "1296690942"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd4aefbfbdefbfbdefbfbdefbfbd726e2527efbfbdefbfbdefbfbdefbfbdefbfbd0befbfbdefbfbdefbfbd6516c685efbfbd52efbfbd0930efbfbdefbfbdefbfbdefbfbdcd9e5302efbfbddeb61befbfbd44000aefbfbd0a1cefbfbd410756efbfbd5c55364defbfbd4eefbfbd51efbfbd1aefbfbd536752efbfbd3958efbfbdefbfbdefbfbdefbfbd0d1b070000efbfbdefbfbdefbfbdcab27defbfbd1defbfbd75efbfbd0befbfbd427a290d", 
+                        "id": "380873644"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "12efbfbdefbfbdefbfbd", 
+                        "id": "1703224632"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6a6f1d7f6fefbfbdefbfbd5defbfbdefbfbdefbfbd75efbfbd6defbfbd73efbfbd3fefbfbdefbfbd7317efbfbd162eefbfbd7929efbfbd70efbfbd4b27efbfbdefbfbdefbfbdefbfbd5ed3b95d42082124efbfbd5befbfbd10efbfbd7e38efbfbdefbfbdefbfbdefbfbd1cefbfbd11efbfbd7eefbfbd747b0c6554efbfbdefbfbd67efbfbd21efbfbdc6b5efbfbde48b93efbfbdcd8defbfbdefbfbdefbfbdefbfbdc5896f4d6cefbfbd7b4f7919efbfbd6f", 
+                        "id": "1283774349"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "id": "261815685"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/37_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "553515002"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1419435059"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1886144675"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/38_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1562194721"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1192468533"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/38_task.xml", 
+                        "id": "375795159"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/38_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "375795159"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33380a", 
+                        "id": "2122356386"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/38_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "635745062"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }
+            ], 
+            "endState": "1d1bc18ccebecd8a3afa4cdf6b9db908"
+        }
+    }, 
+    "f9ef83030668e8711a5bfce35c4d7ce8": {
+        "10829~touch(None,None)": {
+            "reaction": [], 
+            "endState": "f64102ed8a9478151405104364372645"
+        }, 
+        "10865~touch(None,None)": {
+            "reaction": [], 
+            "endState": "2310718522754f222b6273f7da09b21f"
+        }
+    }, 
+    "9401e7ff58b3dfee20b02ba403920acc": {
+        "10819~touch(None,None)": {
+            "reaction": [], 
+            "endState": "f64102ed8a9478151405104364372645"
+        }
+    }, 
+    "1d1bc18ccebecd8a3afa4cdf6b9db908": {
+        "10860~intent": {
+            "reaction": [], 
+            "endState": "f9ef83030668e8711a5bfce35c4d7ce8"
+        }, 
+        "10807~intent": {
+            "reaction": [], 
+            "endState": "f64102ed8a9478151405104364372645"
+        }
+    }, 
+    "4b638a1d149fe44b2248bf22361c0f1a": {
+        "10915~intent": {
+            "reaction": [], 
+            "endState": "4b638a1d149fe44b2248bf22361c0f1a"
+        }, 
+        "10921~touch(None,None)": {
+            "reaction": [], 
+            "endState": "7fb8ffe5caad3061a652e32d24bfd002"
+        }
+    }, 
+    "f64102ed8a9478151405104364372645": {
+        "10841~touch(None,None)": {
+            "reaction": [], 
+            "endState": "f64102ed8a9478151405104364372645"
+        }, 
+        "10853~key": {
+            "reaction": [], 
+            "endState": "1d1bc18ccebecd8a3afa4cdf6b9db908"
+        }, 
+        "10824~touch(None,None)": {
+            "reaction": [], 
+            "endState": "f9ef83030668e8711a5bfce35c4d7ce8"
+        }, 
+        "10835~touch(None,None)": {
+            "reaction": [], 
+            "endState": "f64102ed8a9478151405104364372645"
+        }, 
+        "10813~touch(None,None)": {
+            "reaction": [], 
+            "endState": "9401e7ff58b3dfee20b02ba403920acc"
+        }, 
+        "10847~touch(None,None)": {
+            "reaction": [], 
+            "endState": "f64102ed8a9478151405104364372645"
+        }
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "21b6a6b125021ca713402b234fb0f46a": {
+        "2018-06-07_035522~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035504~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035437~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035624~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035550~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035537~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035608~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035635~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035317~touch(None,None)": {
+            "reaction": {
+                "27568": [
+                    "java.lang.StringBuilder.<init>", 
+                    "android.widget.TextView.getEditableText", 
+                    "java.lang.StringBuilder.append", 
+                    "java.lang.StringBuilder.toString", 
+                    "java.net.URL.<init>"
+                ], 
+                "27062": [
+                    "android.view.View.getId", 
+                    "java.lang.Thread.start", 
+                    "android.view.View.setVisibility", 
+                    "android.widget.TextView.setText"
+                ]
+            }, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035646~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035514~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035445~long_touch": {
+            "reaction": {}, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035457~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }
+    }, 
+    "4d14fb5d96b259570f86ed2107cfabf9": {
+        "2018-06-07_035259~key": {
+            "reaction": {}, 
+            "endState": "f0b5629826d718799a35af89a6a2cf47"
+        }
+    }, 
+    "df2f2b2e41d04bc2c0458e29b1ee834d": {
+        "2018-06-07_035408~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035353~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035401~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035424~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-07_035416~key": {
+            "reaction": {}, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035334~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035326~touch(None,None)": {
+            "reaction": {
+                "27062": [
+                    "android.view.View.getId", 
+                    "java.lang.Thread.start", 
+                    "android.view.View.setVisibility", 
+                    "android.widget.TextView.setText"
+                ], 
+                "27746": [
+                    "java.lang.StringBuilder.<init>", 
+                    "android.widget.TextView.getEditableText", 
+                    "java.lang.StringBuilder.append", 
+                    "java.lang.StringBuilder.toString", 
+                    "java.net.URL.<init>"
+                ]
+            }, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "2018-06-07_035342~long_touch": {
+            "reaction": {}, 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }
+    }, 
+    "3bef2df9723111f6aef4cf4bb6c07737": {
+        "2018-06-07_035640~intent": {
+            "reaction": {
+                "32030": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035431~intent": {
+            "reaction": {
+                "28881": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035543~intent": {
+            "reaction": {
+                "30627": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035530~intent": {
+            "reaction": {
+                "30299": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035559~intent": {
+            "reaction": {
+                "30990": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035307~intent": {
+            "reaction": {}, 
+            "endState": "4d14fb5d96b259570f86ed2107cfabf9"
+        }, 
+        "2018-06-07_035616~intent": {
+            "reaction": {
+                "31369": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "2018-06-07_035629~intent": {
+            "reaction": {
+                "31699": [
+                    "android.app.Activity.<init>", 
+                    "java.lang.Thread.<init>", 
+                    "java.lang.Object.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "com.apperhand.device.android.AndroidSDKProvider.<clinit>", 
+                    "com.apperhand.device.android.AndroidSDKProvider.initSDK", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.getSystemService", 
+                    "android.net.ConnectivityManager.getActiveNetworkInfo", 
+                    "android.net.NetworkInfo.isConnected", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.app.Activity.findViewById", 
+                    "android.os.Handler.<init>"
+                ]
+            }, 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }
+    }
+}

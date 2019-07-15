@@ -1,0 +1,70 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        414ad148 com.keji.danti698/com.keji.danti.MainA filter 418020e8
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.UMS_CONNECTED:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.net.conn.MEDIA_NOFS:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.intent.action.UMS_DISCONNECTED:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.net.wifi.PICK_WIFI_WORK:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.provider.Telephony.SMS_RECEIVED:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.intent.action.BOOT_COMPLETED:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.intent.action.USER_PRESENT:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.intent.action.INPUT_METHOD_CHANGED:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.intent.action.ACTION_POWER_CONNECTED:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+      android.net.conn.CONNECTIVITY_CHANGE:
+        4186dde8 com.keji.danti698/com.android.view.custom.BaseABroadcastReceiver filter 41821808
+ 
+Packages:
+  Package [com.keji.danti698] (41747118):
+    userId=10050 gids=[3003, 1015, 1028]
+    sharedUser=null
+    pkg=Package{415e0088 com.keji.danti698}
+    codePath=/data/app/com.keji.danti698-1.apk
+    resourcePath=/data/app/com.keji.danti698-1.apk
+    nativeLibraryPath=/data/data/com.keji.danti698/lib
+    versionCode=32
+    applicationInfo=ApplicationInfo{41802920 com.keji.danti698}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP STOPPED ]
+    versionName=3.0.8
+    dataDir=/data/data/com.keji.danti698
+    targetSdk=0
+    supportsScreens=[medium]
+    timeStamp=2018-05-07 07:26:57
+    firstInstallTime=2018-05-07 07:26:59
+    lastUpdateTime=2018-05-07 07:26:59
+    signatures=PackageSignatures{416ea5a0 [416aefb8]}
+    permissionsFixed=true haveGids=true
+    pkgFlags=0x0 installStatus=1 User 0:  stopped=true enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.SEND_SMS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_CALL_LOG
+      android.permission.WRITE_SMS
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.RECEIVE_SMS
+      android.permission.CALL_PHONE
+      android.permission.READ_CONTACTS
+      android.permission.WRITE_CONTACTS
+      android.permission.RESTART_PACKAGES
+      android.permission.READ_PHONE_STATE
+      android.permission.DISABLE_KEYGUARD
+      android.permission.READ_SMS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.READ_CALL_LOG
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE

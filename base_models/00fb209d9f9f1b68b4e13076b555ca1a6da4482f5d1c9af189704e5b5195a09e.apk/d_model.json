@@ -1,0 +1,2276 @@
+{
+    "21b6a6b125021ca713402b234fb0f46a": {
+        "10971~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10943~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "11005~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "11027~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10935~touch(None,None)": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10898~touch(None,None)": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "11016~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10989~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10918~touch(None,None)": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10818~touch(None,None)": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10958~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10906~long_touch": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10925~touch(None,None)": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }
+    }, 
+    "4d14fb5d96b259570f86ed2107cfabf9": {
+        "10800~key": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "538332012"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "1743164955"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353932333732206b420a427566666572733a20202020202020202020203136303430206b420a4361636865643a202020202020202020", 
+                        "id": "1324219806"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "96403914"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "1702055345"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "id": "1168681114"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1168681114"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33350a", 
+                        "id": "386964678"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1353737122"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/35_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "2013555409"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/35_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd7fefbfbd56", 
+                        "id": "1339570222"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/35_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4aefbfbdefbfbdefbfbd", 
+                        "id": "187472903"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/35_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "1276933003"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "281750911"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "706513097"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "id": "119344948"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "id": "2117469932"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2117469932"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2046477167"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->/system/bin/sh", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->/system/bin/sh", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1857417473"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "id": "1334119561"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/35_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "252130445"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1601166165"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1314632598"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "1314632598"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "1609664856"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "1609664856"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "626052624"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "626052624"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1469609224"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353730373030206b420a427566666572733a20202020202020202020203136303732206b420a4361636865643a202020202020202020", 
+                        "id": "1469609224"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1110645532"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1110645532"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/36_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1098234099"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/26634/cmdline", 
+                        "id": "603997241"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/28881/cmdline", 
+                        "id": "979596748"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/28881/cmdline", 
+                        "operation": "read", 
+                        "data": "636f6d2e676f6c64617070732e68746d6c7669657765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000746d702f6d696e696361702d646576656c2f6d696e696361", 
+                        "id": "979596748"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->/system/bin/sh", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30141/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d00666f7263652d73746f7000636f6d2e676f6c64617070732e68746d6c76696577657200702d646576656c2f6d696e696361", 
+                        "id": "1256304151"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/36_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1104872590"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33360a", 
+                        "id": "261532776"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/30297/cmdline", 
+                        "id": "1910208740"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30297/cmdline", 
+                        "operation": "read", 
+                        "data": "2f73797374656d2f62696e2f7368002d630064756d7073797320646973706c617900642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "1910208740"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1422130029"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "1422130029"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "369566570"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "369566570"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1423340978"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1423340978"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "455530550"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353732313336206b420a427566666572733a20202020202020202020203136303838206b420a4361636865643a202020202020202020", 
+                        "id": "455530550"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1711424401"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1711424401"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1247631241"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30299/cmdline", 
+                        "operation": "read", 
+                        "data": "2f73797374656d2f62696e2f7368002d630064756d7073797320646973706c617900642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "1906351058"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30483/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d00666f7263652d73746f7000636f6d2e676f6c64617070732e68746d6c76696577657200746d702f6576656e742e74726163", 
+                        "id": "2130936227"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/37_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "334202121"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33370a", 
+                        "id": "1519010610"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30617/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "218085195"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1917202526"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1080703063"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "1080703063"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "311997885"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "311997885"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "735344291"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "735344291"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1824247955"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353731353638206b420a427566666572733a20202020202020202020203136303932206b420a4361636865643a202020202020202020", 
+                        "id": "1824247955"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1938575316"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1938575316"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/38_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1707032398"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30627/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "1529615951"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30850/cmdline", 
+                        "operation": "read", 
+                        "data": "2f73797374656d2f62696e2f7368002d630067657470726f7020726f2e73662e6c63645f64656e73697479002e616d2e416d00666f7263652d73746f7000636f6d2e676f6c64617070732e68746d6c76696577657200746d702f6576656e742e74726163", 
+                        "id": "2093465464"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/38_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2025357034"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33380a", 
+                        "id": "477381791"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/30950/cmdline", 
+                        "id": "1320962059"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/30980/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "259695105"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1981079173"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1101806427"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "1101806427"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "1688011792"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "1688011792"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "875387832"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "875387832"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1813774405"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353533363430206b420a427566666572733a20202020202020202020203136303936206b420a4361636865643a202020202020202020", 
+                        "id": "1813774405"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1025133669"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1025133669"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/39_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "654778541"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/31110/cmdline", 
+                        "operation": "read", 
+                        "data": "2f73797374656d2f62696e2f7368002d630067657470726f702071656d752e73662e6c63645f64656e73697479000000000000000000000000000000000000000000000000000000000000006174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "138793540"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/31210/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d00666f7263652d73746f7000636f6d2e676f6c64617070732e68746d6c76696577657200746d702f6576656e742e74726163", 
+                        "id": "494188339"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/39_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "698688248"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "33390a", 
+                        "id": "536477864"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/31357/cmdline", 
+                        "id": "1515015575"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/31357/cmdline", 
+                        "operation": "read", 
+                        "data": "67657470726f7000726f2e73662e6c63645f64656e73697479006d2e616e64726f69642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "1515015575"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "259633006"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "259633006"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1593135681"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "842092614"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "842092614"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1298870446"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1298870446"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1706589261"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353732333132206b420a427566666572733a20202020202020202020203136303936206b420a4361636865643a202020202020202020", 
+                        "id": "1706589261"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "377785617"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "377785617"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/40_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1906862543"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/31562/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d00666f7263652d73746f7000636f6d2e676f6c64617070732e68746d6c76696577657200746d702f6576656e742e74726163", 
+                        "id": "786291852"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/40_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1695226052"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "34300a", 
+                        "id": "1071826325"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/31687/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "183784263"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "330254252"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1077966031"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "1077966031"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "87250492"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "87250492"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "905911207"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "905911207"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "875604861"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353731303732206b420a427566666572733a20202020202020202020203136303936206b420a4361636865643a202020202020202020", 
+                        "id": "875604861"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "961977776"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "961977776"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/41_task.xml", 
+                        "id": "432161847"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/41_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1376322147"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/31888/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d00666f7263652d73746f7000636f6d2e676f6c64617070732e68746d6c76696577657200746d702f6576656e742e74726163", 
+                        "id": "890450854"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/41_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1539606856"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "34310a", 
+                        "id": "1781403533"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/32020/cmdline", 
+                        "operation": "read", 
+                        "data": "6170705f70726f63657373002f73797374656d2f62696e00636f6d2e616e64726f69642e636f6d6d616e64732e616d2e416d007374617274002d2d73746172742d70726f66696c6572002f646174612f6c6f63616c2f746d702f6576656e742e74726163", 
+                        "id": "1911240723"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1399965785"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.goldapps.htmlviewer-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "id": "540871241"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "540871241"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "354459483"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "354459483"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "1524388984"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1524388984"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "2014326959"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353637313936206b420a427566666572733a20202020202020202020203136303936206b420a4361636865643a202020202020202020", 
+                        "id": "2014326959"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "id": "113569706"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.goldapps.htmlviewer", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.goldapps.htmlviewer/shared_prefs/com.goldapps.htmlviewer_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "113569706"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/42_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2001794162"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/1682/net/xt_qtaguid/iface_stat_fmt", 
+                        "operation": "read", 
+                        "data": "313834303739353720363733352030203020302030203138343037393537203637333520302030203020300a203020300a20302030203020300a203020300a20302030203020300a20300a33352031383430373935372036373335203020302030203020", 
+                        "id": "1348973154"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/1682/net/xt_qtaguid/iface_stat_all", 
+                        "operation": "read", 
+                        "data": "363733390a32303520363733390a363733390a32303520363733390a390a390a390a390a390a33390a3733390a20363733390a3733390a3520363733390a390a390a390a390a390a363733390a0000000000000000000000000000000000000000000000", 
+                        "id": "1367517804"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/42_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1086788499"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "34320a", 
+                        "id": "1681007507"
+                    }
+                }
+            ], 
+            "endState": "f0b5629826d718799a35af89a6a2cf47"
+        }
+    }, 
+    "df2f2b2e41d04bc2c0458e29b1ee834d": {
+        "10869~touch(None,None)": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10854~touch(None,None)": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10862~touch(None,None)": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10843~long_touch": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10835~touch(None,None)": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10885~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10827~touch(None,None)": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }, 
+        "10877~key": {
+            "reaction": [], 
+            "endState": "df2f2b2e41d04bc2c0458e29b1ee834d"
+        }
+    }, 
+    "3bef2df9723111f6aef4cf4bb6c07737": {
+        "10808~intent": {
+            "reaction": [], 
+            "endState": "4d14fb5d96b259570f86ed2107cfabf9"
+        }, 
+        "10980~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10892~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10997~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10951~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "11021~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "10964~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }, 
+        "11010~intent": {
+            "reaction": [], 
+            "endState": "21b6a6b125021ca713402b234fb0f46a"
+        }
+    }
+}

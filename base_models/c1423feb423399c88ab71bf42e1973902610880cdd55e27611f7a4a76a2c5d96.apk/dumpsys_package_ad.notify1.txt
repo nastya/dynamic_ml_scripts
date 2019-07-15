@@ -1,0 +1,82 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        f0d3597 ad.notify1/ad.notify.OperaUpdaterActivity filter d623ac0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.PHONE_STATE:
+        8be0384 ad.notify1/ad.notify.AutorunBroadcastReceiver filter 4e71443
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.PHONE_STATE"
+          AutoVerify=false
+      android.intent.action.BOOT_COMPLETED:
+        8be0384 ad.notify1/ad.notify.AutorunBroadcastReceiver filter 4e71443
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.PHONE_STATE"
+          AutoVerify=false
+      android.intent.action.USER_PRESENT:
+        8be0384 ad.notify1/ad.notify.AutorunBroadcastReceiver filter 4e71443
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+          Action: "android.intent.action.PHONE_STATE"
+          AutoVerify=false
+
+Key Set Manager:
+  [ad.notify1]
+      Signing KeySets: 33
+
+Packages:
+  Package [ad.notify1] (970efa2):
+    userId=10090
+    pkg=Package{7659433 ad.notify1}
+    codePath=/data/app/ad.notify1-1
+    resourcePath=/data/app/ad.notify1-1
+    legacyNativeLibraryDir=/data/app/ad.notify1-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=4 targetSdk=4
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{79263ee ad.notify1}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/ad.notify1
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2018-06-01 06:50:40
+    firstInstallTime=2018-06-01 06:50:40
+    lastUpdateTime=2018-06-01 06:50:40
+    signatures=PackageSignatures{bdb408f [4b8d7288]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.SEND_SMS
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.INSTALL_PACKAGES
+      android.permission.DELETE_PACKAGES
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.READ_PHONE_STATE: granted=true
+      android.permission.SEND_SMS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+    User 0: ceDataInode=400 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [ad.notify1]
+    Instruction Set: x86
+      path: /data/app/ad.notify1-1/base.apk
+      status: /data/app/ad.notify1-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]

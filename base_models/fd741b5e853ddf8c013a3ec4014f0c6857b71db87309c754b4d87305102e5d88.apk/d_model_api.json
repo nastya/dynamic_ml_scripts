@@ -1,0 +1,206 @@
+{
+    "ea4bec0a98cb76ecde005594f62cd2cd": {
+        "2018-06-06_003224~key": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }
+    }, 
+    "3bef2df9723111f6aef4cf4bb6c07737": {
+        "2018-06-06_003435~intent": {
+            "reaction": {
+                "10955": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003406~intent": {
+            "reaction": {
+                "10251": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003316~intent": {
+            "reaction": {
+                "8007": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003333~intent": {
+            "reaction": {
+                "9539": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003233~intent": {
+            "reaction": {
+                "8007": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003349~intent": {
+            "reaction": {
+                "9897": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003421~intent": {
+            "reaction": {
+                "10604": [
+                    "android.app.Activity.<init>", 
+                    "android.app.Activity.onCreate", 
+                    "android.app.Activity.requestWindowFeature", 
+                    "android.app.Activity.setContentView", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.app.Activity.findViewById", 
+                    "android.view.View.setOnClickListener", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }
+    }, 
+    "c8c3bf6f0e762eb86674678d01a81fc8": {
+        "2018-06-06_003428~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-06_003305~key": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-06_003240~touch(None,None)": {
+            "reaction": {
+                "8007": [
+                    "android.view.animation.AnimationUtils.loadAnimation", 
+                    "android.view.animation.AnimationSet.reset", 
+                    "android.view.View.startAnimation", 
+                    "android.app.Activity.finish"
+                ]
+            }, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003341~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-06_003358~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-06_003325~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-06_003248~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003413~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "2018-06-06_003256~touch(None,None)": {
+            "reaction": {}, 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "2018-06-06_003442~intent": {
+            "reaction": {}, 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }
+    }
+}

@@ -1,0 +1,790 @@
+{
+  "background_services": [
+    "com.android.phone/TelephonyDebugService", 
+    "com.android.smspush/WapPushManager", 
+    "com.android.inputmethod.latin/LatinIME", 
+    "com.android.systemui/ImageWallpaper", 
+    "com.android.systemui/SystemUIService"
+  ], 
+  "views": [
+    {
+      "temp_id": 0, 
+      "parent": null, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:com.android.internal.policy.impl.PhoneWindow$DecorView,resource_id:NO_ID,size:320*494,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          0
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "com.android.internal.policy.impl.PhoneWindow$DecorView", 
+      "focused": false, 
+      "children": [
+        1
+      ], 
+      "size": "320*494"
+    }, 
+    {
+      "temp_id": 1, 
+      "parent": 0, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.LinearLayout,resource_id:NO_ID,size:320*494,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          0
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focused": false, 
+      "children": [
+        2, 
+        3
+      ], 
+      "size": "320*494"
+    }, 
+    {
+      "temp_id": 2, 
+      "parent": 1, 
+      "resource_id": "id/action_mode_bar_stub", 
+      "text": null, 
+      "view_str": "class:android.view.ViewStub,resource_id:id/action_mode_bar_stub,size:0*0,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          0
+        ], 
+        [
+          0, 
+          0
+        ]
+      ], 
+      "class": "android.view.ViewStub", 
+      "focused": false, 
+      "children": [], 
+      "size": "0*0"
+    }, 
+    {
+      "temp_id": 3, 
+      "parent": 1, 
+      "resource_id": "id/content", 
+      "text": null, 
+      "view_str": "class:android.widget.FrameLayout,resource_id:id/content,size:320*473,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          21
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focused": false, 
+      "children": [
+        4
+      ], 
+      "size": "320*473"
+    }, 
+    {
+      "temp_id": 4, 
+      "parent": 3, 
+      "resource_id": "id/tabhost", 
+      "text": null, 
+      "view_str": "class:android.widget.TabHost,resource_id:id/tabhost,size:320*473,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          21
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.TabHost", 
+      "focused": false, 
+      "children": [
+        5
+      ], 
+      "size": "320*473"
+    }, 
+    {
+      "temp_id": 5, 
+      "parent": 4, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.LinearLayout,resource_id:NO_ID,size:320*473,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          21
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focused": false, 
+      "children": [
+        6, 
+        16
+      ], 
+      "size": "320*473"
+    }, 
+    {
+      "temp_id": 6, 
+      "parent": 5, 
+      "resource_id": "id/tabs", 
+      "text": null, 
+      "view_str": "class:android.widget.TabWidget,resource_id:id/tabs,size:320*74,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          21
+        ], 
+        [
+          320, 
+          95
+        ]
+      ], 
+      "class": "android.widget.TabWidget", 
+      "focused": false, 
+      "children": [
+        7, 
+        10, 
+        13
+      ], 
+      "size": "320*74"
+    }, 
+    {
+      "temp_id": 7, 
+      "parent": 6, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.RelativeLayout,resource_id:NO_ID,size:106*74,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          21
+        ], 
+        [
+          106, 
+          95
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focused": false, 
+      "children": [
+        8, 
+        9
+      ], 
+      "size": "106*74"
+    }, 
+    {
+      "temp_id": 8, 
+      "parent": 7, 
+      "resource_id": "id/0x400", 
+      "text": null, 
+      "view_str": "class:android.widget.ImageView,resource_id:id/0x400,size:48*48,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          29, 
+          24
+        ], 
+        [
+          77, 
+          72
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focused": false, 
+      "children": [], 
+      "size": "48*48"
+    }, 
+    {
+      "temp_id": 9, 
+      "parent": 7, 
+      "resource_id": "id/0x401", 
+      "text": "\u4e3b\u9875", 
+      "view_str": "class:android.widget.TextView,resource_id:id/0x401,size:34*20,text:\u4e3b\u9875", 
+      "enabled": true, 
+      "bounds": [
+        [
+          36, 
+          72
+        ], 
+        [
+          70, 
+          92
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "34*20"
+    }, 
+    {
+      "temp_id": 10, 
+      "parent": 6, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.RelativeLayout,resource_id:NO_ID,size:107*74,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          106, 
+          21
+        ], 
+        [
+          213, 
+          95
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focused": false, 
+      "children": [
+        11, 
+        12
+      ], 
+      "size": "107*74"
+    }, 
+    {
+      "temp_id": 11, 
+      "parent": 10, 
+      "resource_id": "id/0x400", 
+      "text": null, 
+      "view_str": "class:android.widget.ImageView,resource_id:id/0x400,size:48*48,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          135, 
+          24
+        ], 
+        [
+          183, 
+          72
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focused": false, 
+      "children": [], 
+      "size": "48*48"
+    }, 
+    {
+      "temp_id": 12, 
+      "parent": 10, 
+      "resource_id": "id/0x401", 
+      "text": "\u5386\u53f2", 
+      "view_str": "class:android.widget.TextView,resource_id:id/0x401,size:34*20,text:\u5386\u53f2", 
+      "enabled": true, 
+      "bounds": [
+        [
+          142, 
+          72
+        ], 
+        [
+          176, 
+          92
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "34*20"
+    }, 
+    {
+      "temp_id": 13, 
+      "parent": 6, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.RelativeLayout,resource_id:NO_ID,size:107*74,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          213, 
+          21
+        ], 
+        [
+          320, 
+          95
+        ]
+      ], 
+      "class": "android.widget.RelativeLayout", 
+      "focused": false, 
+      "children": [
+        14, 
+        15
+      ], 
+      "size": "107*74"
+    }, 
+    {
+      "temp_id": 14, 
+      "parent": 13, 
+      "resource_id": "id/0x400", 
+      "text": null, 
+      "view_str": "class:android.widget.ImageView,resource_id:id/0x400,size:48*48,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          242, 
+          24
+        ], 
+        [
+          290, 
+          72
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focused": false, 
+      "children": [], 
+      "size": "48*48"
+    }, 
+    {
+      "temp_id": 15, 
+      "parent": 13, 
+      "resource_id": "id/0x401", 
+      "text": "\u7cbe\u54c1", 
+      "view_str": "class:android.widget.TextView,resource_id:id/0x401,size:34*20,text:\u7cbe\u54c1", 
+      "enabled": true, 
+      "bounds": [
+        [
+          249, 
+          72
+        ], 
+        [
+          283, 
+          92
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "34*20"
+    }, 
+    {
+      "temp_id": 16, 
+      "parent": 5, 
+      "resource_id": "id/tabcontent", 
+      "text": null, 
+      "view_str": "class:android.widget.FrameLayout,resource_id:id/tabcontent,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focused": false, 
+      "children": [
+        17, 
+        27
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 17, 
+      "parent": 16, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:com.android.internal.policy.impl.PhoneWindow$DecorView,resource_id:NO_ID,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "com.android.internal.policy.impl.PhoneWindow$DecorView", 
+      "focused": false, 
+      "children": [
+        18, 
+        25, 
+        26
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 18, 
+      "parent": 17, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.LinearLayout,resource_id:NO_ID,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focused": false, 
+      "children": [
+        19, 
+        20
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 19, 
+      "parent": 18, 
+      "resource_id": "id/action_mode_bar_stub", 
+      "text": null, 
+      "view_str": "class:android.view.ViewStub,resource_id:id/action_mode_bar_stub,size:0*0,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          0, 
+          95
+        ]
+      ], 
+      "class": "android.view.ViewStub", 
+      "focused": false, 
+      "children": [], 
+      "size": "0*0"
+    }, 
+    {
+      "temp_id": 20, 
+      "parent": 18, 
+      "resource_id": "id/content", 
+      "text": null, 
+      "view_str": "class:android.widget.FrameLayout,resource_id:id/content,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focused": false, 
+      "children": [
+        21
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 21, 
+      "parent": 20, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.LinearLayout,resource_id:NO_ID,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focused": false, 
+      "children": [
+        22, 
+        23, 
+        24
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 22, 
+      "parent": 21, 
+      "resource_id": "id/ebooktext", 
+      "text": "\u300a\u848b\u4ecb\u77f3\u8bc4\u4f20-\u674e\u6556\u300b", 
+      "view_str": "class:android.widget.TextView,resource_id:id/ebooktext,size:320*101,text:\u300a\u848b\u4ecb\u77f3\u8bc4\u4f20-\u674e\u6556\u300b", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          200
+        ], 
+        [
+          320, 
+          301
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "320*101"
+    }, 
+    {
+      "temp_id": 23, 
+      "parent": 21, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.ImageView,resource_id:NO_ID,size:0*0,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          160, 
+          306
+        ], 
+        [
+          160, 
+          306
+        ]
+      ], 
+      "class": "android.widget.ImageView", 
+      "focused": false, 
+      "children": [], 
+      "size": "0*0"
+    }, 
+    {
+      "temp_id": 24, 
+      "parent": 21, 
+      "resource_id": "id/ebookstart", 
+      "text": "\u5f00\u59cb\u9605\u8bfb", 
+      "view_str": "class:android.widget.Button,resource_id:id/ebookstart,size:140*83,text:\u5f00\u59cb\u9605\u8bfb", 
+      "enabled": true, 
+      "bounds": [
+        [
+          90, 
+          306
+        ], 
+        [
+          230, 
+          389
+        ]
+      ], 
+      "class": "android.widget.Button", 
+      "focused": false, 
+      "children": [], 
+      "size": "140*83"
+    }, 
+    {
+      "temp_id": 25, 
+      "parent": 17, 
+      "resource_id": "id/0x64", 
+      "text": null, 
+      "view_str": "class:com.energysource.szj.embeded.AdView,resource_id:id/0x64,size:320*0,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          95
+        ]
+      ], 
+      "class": "com.energysource.szj.embeded.AdView", 
+      "focused": false, 
+      "children": [], 
+      "size": "320*0"
+    }, 
+    {
+      "temp_id": 26, 
+      "parent": 17, 
+      "resource_id": "id/0x64", 
+      "text": null, 
+      "view_str": "class:com.energysource.szj.embeded.AdView,resource_id:id/0x64,size:320*0,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          95
+        ]
+      ], 
+      "class": "com.energysource.szj.embeded.AdView", 
+      "focused": false, 
+      "children": [], 
+      "size": "320*0"
+    }, 
+    {
+      "temp_id": 27, 
+      "parent": 16, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:com.android.internal.policy.impl.PhoneWindow$DecorView,resource_id:NO_ID,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "com.android.internal.policy.impl.PhoneWindow$DecorView", 
+      "focused": false, 
+      "children": [
+        28
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 28, 
+      "parent": 27, 
+      "resource_id": "NO_ID", 
+      "text": null, 
+      "view_str": "class:android.widget.LinearLayout,resource_id:NO_ID,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.LinearLayout", 
+      "focused": false, 
+      "children": [
+        29, 
+        30
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 29, 
+      "parent": 28, 
+      "resource_id": "id/action_mode_bar_stub", 
+      "text": null, 
+      "view_str": "class:android.view.ViewStub,resource_id:id/action_mode_bar_stub,size:0*0,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          0, 
+          95
+        ]
+      ], 
+      "class": "android.view.ViewStub", 
+      "focused": false, 
+      "children": [], 
+      "size": "0*0"
+    }, 
+    {
+      "temp_id": 30, 
+      "parent": 28, 
+      "resource_id": "id/content", 
+      "text": null, 
+      "view_str": "class:android.widget.FrameLayout,resource_id:id/content,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.FrameLayout", 
+      "focused": false, 
+      "children": [
+        31
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 31, 
+      "parent": 30, 
+      "resource_id": "id/list", 
+      "text": null, 
+      "view_str": "class:android.widget.ExpandableListView,resource_id:id/list,size:320*399,text:None", 
+      "enabled": true, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          320, 
+          494
+        ]
+      ], 
+      "class": "android.widget.ExpandableListView", 
+      "focused": true, 
+      "children": [
+        32
+      ], 
+      "size": "320*399"
+    }, 
+    {
+      "temp_id": 32, 
+      "parent": 31, 
+      "resource_id": "NO_ID", 
+      "text": "\u4eca\u5929(0)", 
+      "view_str": "class:android.widget.TextView,resource_id:NO_ID,size:0*40,text:\u4eca\u5929(0)", 
+      "enabled": false, 
+      "bounds": [
+        [
+          0, 
+          95
+        ], 
+        [
+          0, 
+          135
+        ]
+      ], 
+      "class": "android.widget.TextView", 
+      "focused": false, 
+      "children": [], 
+      "size": "0*40"
+    }
+  ], 
+  "tag": "2018-05-05_215443", 
+  "foreground_activity": "com.keji.danti726/com.keji.danti.MainA", 
+  "view_str": "activity:com.keji.danti726/com.keji.danti.MainA,NO_ID,id/0x400,id/0x401,id/0x64,id/action_mode_bar_stub,id/content,id/ebookstart,id/ebooktext,id/list,id/tabcontent,id/tabhost,id/tabs"
+}

@@ -1,0 +1,3230 @@
+{
+    "ea4bec0a98cb76ecde005594f62cd2cd": {
+        "10800~key": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->org.tonee.monster.widgets.free", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/org.tonee.monster.widgets.free-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1310834338"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1958715604"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1162043395"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1410680204"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1864739576"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "00000360000005680802000000", 
+                        "id": "1065302064"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "1958579308"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd67efbfbdefbfbd", 
+                        "id": "1447848238"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbddbadefbfbd", 
+                        "id": "730240960"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "711868012"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "09efbfbdefbfbd57", 
+                        "id": "1369743290"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5b73efbfbdefbfbd", 
+                        "id": "25692077"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "117c64efbfbd", 
+                        "id": "1372957564"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "cca452efbfbd", 
+                        "id": "1992797273"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4fefbfbd1d69efbfbd35efbfbd32efbfbdefbfbdcbb9efbfbd716b3fefbfbd52efbfbd52efbfbd4a393defbfbd76efbfbd28efbfbd47efbfbd0800efbfbd0f39efbfbdefbfbdefbfbdefbfbd4cefbfbd4e1a37efbfbdefbfbdefbfbdefbfbdefbfbd3c74efbfbd4104706b10031b03efbfbd5b7f4576645f6c61ed89963eefbfbd26efbfbdefbfbdde95efbfbd7aefbfbd1142efbfbdefbfbd42c4a0efbfbdefbfbd586d7defbfbd", 
+                        "id": "1548040453"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1e72efbfbd73", 
+                        "id": "638475226"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbdcca350d9a50c47efbfbd4551efbfbd0778efbfbdefbfbd2f5c2eefbfbd6befbfbd405defbfbdefbfbd552aefbfbd2c357e6f541f56eb8dbaefbfbd4c270eefbfbd5e59efbfbd7d4d7befbfbdefbfbd4653efbfbd5a0cde97efbfbd5a14efbfbd6eefbfbde9959c57efbfbd0b07efbfbd6e45efbfbd6aefbfbd5a5defbfbd55efbfbd1fefbfbd69efbfbd03efbfbd2befbfbd78efbfbd58efbfbd", 
+                        "id": "1005257309"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd21efbfbdefbfbd", 
+                        "id": "1315213558"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "11efbfbd45366eefbfbd677e1b49efbfbd545515efbfbd0f253f4befbfbdde9b650116d9bf525029efbfbd3724d6b372efbfbd123d1c15efbfbd483befbfbd777befbfbdd9b5efbfbdefbfbdefbfbd0aefbfbdefbfbd63efbfbd6d10e5adb2efbfbddbbc3eefbfbdefbfbd79efbfbdefbfbdefbfbd4befbfbd606befbfbdefbfbd0e654d7befbfbd771befbfbd36efbfbd2e4ddba5efbfbd612222efbfbdefbfbd", 
+                        "id": "119122759"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "1007869340"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "340a", 
+                        "id": "1271375141"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "688834621"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "40833305"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1025026757"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "53014962"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1951123243"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1084497042"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c7461736b207461736b5f69643d223422207265616c5f61637469766974793d226f72672e746f6e65652e", 
+                        "id": "389325007"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "198167334"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "22444325"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "815397339"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1165582206"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "72245597"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2085735158"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1908105297"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "811402834"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "364467588"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "939965422"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "176060390"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1248054150"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1333463438"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "70109832"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "498014253"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "2122166873"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2122166873"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1752004892"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1957588260"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "868209365"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1836226791"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "306832674"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003255.png", 
+                        "operation": "read", 
+                        "data": "0000200049444154", 
+                        "id": "1043464973"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "453436677"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1336053155"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "275862064"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "460359608"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "460359608"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1976934759"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "185470970"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2115853969"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2131580687"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "492709017"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "637903426"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "050605", 
+                        "id": "4656256"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "79011159"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd67efbfbdefbfbd", 
+                        "id": "795243483"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbddbadefbfbd", 
+                        "id": "1223109609"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd7d5661", 
+                        "id": "600957825"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "09efbfbdefbfbd57", 
+                        "id": "380561704"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd1171efbfbd2112efbfbd19efbfbd640128efbfbd5fefbfbd3e3cefbfbdefbfbdefbfbdefbfbdefbfbd1e44efbfbdefbfbd2f1cc783efbfbd1d4befbfbd2072330f220aefbfbdefbfbdefbfbd2f37efbfbd2046efbfbdcb8368d4804cefbfbd2f173defbfbd66efbfbd4343474cefbfbd43efbfbd5c3befbfbdefbfbd2fefbfbdefbfbd14efbfbd4314efbfbd4736efbfbd0e33efbfbdefbfbd3237efbfbdefbfbdefbfbd6a15efbfbdefbfbdefbfbd", 
+                        "id": "580390271"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5b73efbfbdefbfbd", 
+                        "id": "1171197787"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1256371160"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd6a546aefbfbd4defbfbdefbfbdefbfbdefbfbd3defbfbdefbfbd7befbfbdefbfbd0244efbfbdefbfbdefbfbd73efbfbd55efbfbd20efbfbd4644093411efbfbd41efbfbdefbfbdefbfbdd483efbfbd14efbfbd043566efbfbdefbfbd5befbfbd5befbfbd36efbfbdefbfbdefbfbd266b05efbfbd4fefbfbd41efbfbdd58fefbfbd7e1e1befbfbdefbfbd00efbfbdefbfbd3cefbfbdefbfbdefbfbdefbfbd3f6defbfbd42efbfbd6aefbfbd6befbfbd5a5b7f7fefbfbdefbfbd", 
+                        "id": "1102773940"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd0e4a7cefbfbdefbfbdefbfbd37efbfbdefbfbdefbfbd0506efbfbdefbfbdefbfbd635fefbfbdefbfbd102fefbfbdefbfbd6751d081efbfbdefbfbd177e2cefbfbdefbfbd1aefbfbdefbfbd302a3f57efbfbdefbfbd62efbfbd591500efbfbdefbfbd48746059d6b7dd973aefbfbdefbfbd7fefbfbdefbfbdefbfbd2befbfbdc285efbfbdefbfbd2cefbfbdefbfbd287eefbfbd41efbfbdc28302efbfbdefbfbd2f18efbfbdefbfbdefbfbd5eefbfbd0303367d", 
+                        "id": "279322424"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1477336189"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "122784331"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "cca452efbfbd", 
+                        "id": "1824951908"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd63", 
+                        "id": "1575976637"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1e72efbfbd73", 
+                        "id": "1408304836"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd21efbfbdefbfbd", 
+                        "id": "2112772558"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "991049402"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "214726521"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1723585797"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "65246300"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1775752651"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "985975501"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "404118247"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "519708661"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1939898130"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "886851073"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1421851371"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1667185681"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "1822344269"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "151150689"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1810236185"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "374081024"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1891115887"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1224767287"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "1799315664"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1064770670"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c7461736b207461736b5f69643d223522207265616c5f61637469766974793d226f72672e746f6e65652e", 
+                        "id": "342154166"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "652283171"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "350a", 
+                        "id": "1834320906"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "62518186"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2053027401"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "976443348"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "406810880"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "122068996"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "122068996"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1796432714"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/org.tonee.monster.widgets.free-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/6_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "264556011"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "984993346"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "324972816"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "324972816"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1837627196"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "269243774"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1597258749"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "595329624"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "967862432"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/6_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "707411219"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "360a", 
+                        "id": "1462105877"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1933383179"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1685406184"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "1265652881"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "537957058"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "653144278"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1110095717"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1314710309"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003350.png", 
+                        "operation": "read", 
+                        "data": "0000200049444154", 
+                        "id": "1269294044"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "280364382"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/org.tonee.monster.widgets.free-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/7_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1031497520"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1137266954"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1820397028"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "1306624183"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "377756013"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1452155975"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1218287320"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "568497579"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/7_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "349211447"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "370a", 
+                        "id": "871713757"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2081398413"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2009980917"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003405.png", 
+                        "operation": "read", 
+                        "data": "0000000000000000000000000000", 
+                        "id": "758522870"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1189375273"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1713218011"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "196425628"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "466134652"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "id": "1832663444"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1832663444"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/org.tonee.monster.widgets.free-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/8_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "344396422"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "1249866580"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "978114514"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "669317208"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "2074568542"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2074568542"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "631350469"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "42726f616463617374696e673a20496e74656e74207b206163743d616e64726f69642e696e74656e742e616374696f6e2e4d454449415f5343414e4e45525f5343414e5f46494c45206461743d66696c653a2f2f2f7364636172642f73637265656e5f32", 
+                        "id": "1275066196"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1893425025"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "78557907"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/8_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "134131403"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "id": "1205346846"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "380a", 
+                        "id": "1205346846"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1175062753"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1394360934"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1666110902"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "405686729"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003420.png", 
+                        "id": "1095528240"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003420.png", 
+                        "operation": "read", 
+                        "data": "0000200049444154", 
+                        "id": "2059409150"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1644459477"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1133226751"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1487822350"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->org.tonee.monster.widgets.free", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/org.tonee.monster.widgets.free-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/9_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1190041534"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "521143618"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1895138508"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "629356584"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "437753079"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "819990927"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "819990927"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "413439104"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/9_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2122213065"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "390a", 
+                        "id": "1003808834"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "992159125"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "569008980"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003434.png", 
+                        "operation": "read", 
+                        "data": "0000000000000000000000000000", 
+                        "id": "925352073"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "476804555"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "203886943"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2033169760"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1112963288"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->org.tonee.monster.widgets.free", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/org.tonee.monster.widgets.free-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1556553251"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "id": "505005819"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1010729442"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "105442574"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "1966842488"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "412244755"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "1084266610"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1475108320"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "id": "1920482628"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->screencap->sh->app_process", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2051244034"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/media/0/screen_2018-06-06_003442.png", 
+                        "operation": "read", 
+                        "data": "0000000000000000000000000000", 
+                        "id": "1260731770"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1832656209"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "668440109"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "id": "1552218881"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "346174018"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31300a", 
+                        "id": "1438674277"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1015407454"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->android.process.media", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.android.providers.media.MediaScannerService"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/dev/null", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "784820885"
+                    }
+                }
+            ], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }
+    }, 
+    "3bef2df9723111f6aef4cf4bb6c07737": {
+        "10885~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10902~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10869~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10809~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10917~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10931~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10852~intent": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }
+    }, 
+    "c8c3bf6f0e762eb86674678d01a81fc8": {
+        "10909~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10832~touch(None,None)": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10816~touch(None,None)": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10924~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10824~touch(None,None)": {
+            "reaction": [], 
+            "endState": "c8c3bf6f0e762eb86674678d01a81fc8"
+        }, 
+        "10861~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10938~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10841~key": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10877~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10894~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }
+    }
+}

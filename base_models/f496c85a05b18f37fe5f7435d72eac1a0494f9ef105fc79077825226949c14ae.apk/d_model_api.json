@@ -1,0 +1,76 @@
+{
+    "625bf495a624d300e5f1f5a20890411e": {
+        "2018-05-29_105500~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }, 
+        "2018-05-29_105149~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }, 
+        "2018-05-29_105636~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }, 
+        "2018-05-29_105412~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }, 
+        "2018-05-29_105323~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }, 
+        "2018-05-29_105548~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }, 
+        "2018-05-29_105234~intent": {
+            "reaction": {}, 
+            "endState": "4e45600e8a95d8d023a04a95fd16edd6"
+        }
+    }, 
+    "4e45600e8a95d8d023a04a95fd16edd6": {
+        "2018-05-29_105134~key": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105439~intent": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105615~intent": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105351~intent": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105527~intent": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105303~intent": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105213~key": {
+            "reaction": {
+                "29710": [
+                    "android.app.Activity.moveTaskToBack", 
+                    "java.lang.String.valueOf", 
+                    "java.lang.String.valueOf", 
+                    "java.lang.StringBuilder.<init>", 
+                    "java.lang.StringBuilder.append", 
+                    "java.lang.StringBuilder.toString", 
+                    "java.lang.String.valueOf"
+                ]
+            }, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }, 
+        "2018-05-29_105704~intent": {
+            "reaction": {}, 
+            "endState": "625bf495a624d300e5f1f5a20890411e"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        bfa952b com.goldapps.htmlviewer/.MainActivity filter 3fa740
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.goldapps.htmlviewer]
+      Signing KeySets: 22
+
+Packages:
+  Package [com.goldapps.htmlviewer] (d66cd88):
+    userId=10079
+    pkg=Package{6952321 com.goldapps.htmlviewer}
+    codePath=/data/app/com.goldapps.htmlviewer-1
+    resourcePath=/data/app/com.goldapps.htmlviewer-1
+    legacyNativeLibraryDir=/data/app/com.goldapps.htmlviewer-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=8 targetSdk=8
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{aba3346 com.goldapps.htmlviewer}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.goldapps.htmlviewer
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2018-06-07 00:52:47
+    firstInstallTime=2018-06-07 00:52:48
+    lastUpdateTime=2018-06-07 00:52:48
+    signatures=PackageSignatures{b0b5907 [2b8be312]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.ACCESS_NETWORK_STATE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.motorola.launcher.permission.READ_SETTINGS
+      com.motorola.dlauncher.permission.READ_SETTINGS
+      com.fede.launcher.permission.READ_SETTINGS
+      com.lge.launcher.permission.READ_SETTINGS
+      org.adw.launcher.permission.READ_SETTINGS
+      com.motorola.launcher.permission.INSTALL_SHORTCUT
+      com.motorola.dlauncher.permission.INSTALL_SHORTCUT
+      com.lge.launcher.permission.INSTALL_SHORTCUT
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+    install permissions:
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.READ_PHONE_STATE: granted=true
+      com.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=398 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [com.goldapps.htmlviewer]
+    Instruction Set: x86
+      path: /data/app/com.goldapps.htmlviewer-1/base.apk
+      status: /data/app/com.goldapps.htmlviewer-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToD
+      ate]

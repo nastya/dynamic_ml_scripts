@@ -1,0 +1,3863 @@
+{
+    "ea2aff70921a216a2e340e69d4f9e2f3": {
+        "10833~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }
+    }, 
+    "8be186db43f2090077ad0cd061dbb8cc": {
+        "10800~key": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "2037517729"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "622246288"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363233383732206b420a427566666572733a20202020202020202020203134363630206b420a4361636865643a202020202020202020", 
+                        "id": "882813108"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1172021755"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "53509307"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d226e6565644e6577506172746974696f6e2220", 
+                        "id": "887953329"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636535222076616c75653d223622202f3e0a20", 
+                        "id": "714642346"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "126624942"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "690034007"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22454e435f44554d4d595f4944223e775a646b4b", 
+                        "id": "690034007"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1441426968"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "648670429"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "648670429"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "id": "566529691"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "566529691"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4a732befbfbd", 
+                        "id": "1132842871"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "1846446097"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1274754174"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1998989210"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "583c78efbfbd", 
+                        "id": "1905924544"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1055192367"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd0eefbfbdefbfbdefbfbdefbfbd47efbfbd29efbfbd31efbfbdefbfbd14413c7dd7acefbfbd32efbfbd6746efbfbdefbfbdefbfbd1f5cefbfbd3247efbfbd3704efbfbd4cefbfbd3978efbfbd79efbfbd0f517eefbfbd0b4321efbfbddf94efbfbd10de87efbfbdefbfbdefbfbdefbfbd1fefbfbdefbfbdefbfbd18710702efbfbd5eefbfbdefbfbdefbfbdefbfbdefbfbd7fefbfbdefbfbdefbfbd0414461b7f29307022302c0862efbfbd3e", 
+                        "id": "1966326653"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6d65", 
+                        "id": "573531871"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "416207044"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1cefbfbd38efbfbd", 
+                        "id": "1592480992"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "cdbbefbfbdefbfbd17efbfbd39efbfbd18efbfbd6619efbfbd63cd8e7466efbfbd1e08e283b6efbfbd171cefbfbd79efbfbd03242521efbfbdefbfbdefbfbd6fefbfbdefbfbdefbfbd57efbfbdefbfbd2defbfbdefbfbd0444e5b7aaefbfbd67efbfbdefbfbdefbfbdefbfbdefbfbd444638efbfbd41efbfbd27efbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbd7446efbfbdefbfbd3befbfbdefbfbdefbfbdefbfbdefbfbdefbfbd6aefbfbdefbfbd6875efbfbdefbfbdefbfbd12efbfbd547defbfbdefbfbd", 
+                        "id": "1350132807"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdd9a1efbfbd", 
+                        "id": "1901044297"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "3aefbfbdefbfbd5fefbfbd7d5eefbfbd5f5befbfbd6f677fefbfbd75efbfbd1defbfbd3f73efbfbd1fefbfbdefbfbd5f3704efbfbd0a7c14efbfbdefbfbdefbfbd7c1eed9a83d88eefbfbdefbfbdefbfbd6cefbfbdefbfbd40091340efbfbd43efbfbdefbfbdefbfbdefbfbd6fdf9eefbfbdefbfbd347f36efbfbd0eefbfbd2a4b0eefbfbd6befbfbd60efbfbd52efbfbdefbfbd68674f4aefbfbdefbfbdefbfbd3040efbfbd7d50efbfbdefbfbd5a", 
+                        "id": "528364153"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6fefbfbdefbfbd", 
+                        "id": "462960978"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd487befbfbd", 
+                        "id": "121586259"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1d3fefbfbd262230c6a3efbfbd0c4e1123efbfbd244d66efbfbdefbfbd357054efbfbdefbfbd7bd0a0efbfbd5dcb93721a4a2960efbfbd252fefbfbd1eefbfbd517defbfbdefbfbd211d7f0defbfbdd49c19125cefbfbdefbfbd1cefbfbd5a4b7c654126efbfbdefbfbd2befbfbdc393efbfbdefbfbd5aefbfbd36efbfbdefbfbdefbfbd5717efbfbd3befbfbdefbfbdefbfbd61352fefbfbd4342600a5475efbfbdefbfbd", 
+                        "id": "602097712"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6a5650", 
+                        "id": "596710188"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6a7169", 
+                        "id": "1943376941"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd15efbfbd30", 
+                        "id": "723149413"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd39efbfbd7defbfbd6a3e08efbfbdefbfbd4b69efbfbdc5b20aefbfbd7a7636d3a1efbfbd55efbfbd1006004d5defbfbdefbfbd41efbfbdefbfbdefbfbd784cefbfbd55393eefbfbd2b11efbfbdefbfbdefbfbdefbfbdefbfbd78efbfbdefbfbdefbfbd2fefbfbdefbfbd7227efbfbdefbfbdd9b2efbfbd7d0defbfbdefbfbdefbfbd2308efbfbd0eefbfbd19efbfbd4defbfbdefbfbdefbfbdefbfbd3cefbfbd04efbfbd29efbfbd53efbfbd24291e", 
+                        "id": "1838939166"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd46", 
+                        "id": "1781873691"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd07efbfbd2c3befbfbd461c2763efbfbd6aefbfbdce97efbfbdefbfbd3b74efbfbd2c4aefbfbdefbfbd2aefbfbdefbfbdefbfbd1fefbfbd284eefbfbdefbfbd5c4d2140d7bcefbfbdefbfbd32542e4f395defbfbdefbfbde59c9fefbfbdefbfbd673353efbfbd6def8c8171efbfbd1878efbfbd5defbfbd05efbfbd434202efbfbdefbfbd08efbfbdefbfbdefbfbd3cefbfbdefbfbdefbfbdefbfbdcf9c6378efbfbd5c47d887efbfbd73", 
+                        "id": "891403132"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbdefbfbd", 
+                        "id": "708886410"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1146284551"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "802103607"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd36", 
+                        "id": "740982823"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd50efbfbd7c6e6aefbfbdefbfbdd6b6efbfbd0eefbfbd45efbfbd15efbfbd74efbfbdefbfbd18efbfbd5a50efbfbd4133efbfbdefbfbd58efbfbdefbfbd32e5bb9339efbfbd50efbfbdefbfbdcc89441eefbfbdefbfbddab7efbfbdefbfbd2aefbfbdefbfbd00efbfbdefbfbd1cefbfbdefbfbd5befbfbd1604efbfbdefbfbdddb4efbfbdefbfbd370541efbfbdefbfbdefbfbd6124efbfbd1002efbfbd1913efbfbdefbfbdefbfbdefbfbd707e76efbfbdefbfbdefbfbd", 
+                        "id": "1640581037"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5022efbfbdefbfbd", 
+                        "id": "1299851462"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "2093478163"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd062e2e", 
+                        "id": "1778210498"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "3defbfbd0d50", 
+                        "id": "1248427963"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdc2b92b0c60efbfbd1714efbfbd07efbfbd02efbfbdefbfbdefbfbd7befbfbdefbfbd6a37efbfbd2d07efbfbdefbfbdefbfbd74efbfbd23efbfbddaa0dc8defbfbdefbfbdefbfbdefbfbd5d69ef9ca252efbfbdefbfbd16efbfbdefbfbd0663efbfbd0256efbfbdefbfbd22efbfbd507d2464efbfbd53efbfbdefbfbd126659ce8431efbfbdefbfbdefbfbd5fefbfbd6f5e3f27efbfbd6e0f06efbfbdd59cefbfbd2502efbfbd752e12efbfbd", 
+                        "id": "800923469"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "732c64efbfbd2fefbfbdefbfbd34efbfbd57efbfbd69efbfbdefbfbd5f3d57efbfbdefbfbd18efbfbd202c38efbfbd2050efbfbdefbfbd6a4d23efbfbd2261efbfbd0804efbfbd48efbfbd4f04efbfbdd28fefbfbd78efbfbdcd9f3fefbfbd5defbfbd57635defbfbd2a67efbfbdefbfbd6a58efbfbd3c111171efbfbd433b1320efbfbdefbfbdefbfbdefbfbd097760efbfbdefbfbdefbfbd31efbfbdefbfbd6befbfbdefbfbd327736efbfbdefbfbd", 
+                        "id": "2136077511"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd02717f", 
+                        "id": "1223733623"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1801723184"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0eefbfbd7019efbfbd481261205cefbfbdefbfbdefbfbd39efbfbd3c41efbfbdefbfbd5befbfbd3c69efbfbdca9955efbfbdc9b0efbfbd1defbfbdefbfbdefbfbdefbfbd18d998efbfbd243804efbfbdefbfbd7736515b3759efbfbd74efbfbdefbfbdefbfbd4e533eefbfbd693aefbfbd6befbfbd6e12efbfbd2c0865162aefbfbd7befbfbdefbfbdefbfbd43efbfbd20dbbbefbfbdefbfbd42efbfbd344c11efbfbd4a29efbfbd4a", 
+                        "id": "769125341"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0a3fefbfbd0f", 
+                        "id": "79838612"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1541110570"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "05efbfbd205a", 
+                        "id": "1541110570"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd1d2befbfbdefbfbdefbfbdefbfbd3c1478efbfbddb99efbfbd31d2b8efbfbde6bea16defbfbdefbfbd75efbfbd33efbfbdefbfbdefbfbdefbfbd0907efbfbdefbfbdefbfbdefbfbdefbfbd2615efbfbd5defbfbd1831313defbfbd4cefbfbd39efbfbdefbfbd19efbfbd3b33c4997defbfbd36efbfbd0cefbfbdefbfbd64330bca8323efbfbd40efbfbdefbfbd40efbfbd61efbfbd44efbfbdefbfbdefbfbde38a8e6a3862477a480022737b2e", 
+                        "id": "34804440"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1defbfbd6545", 
+                        "id": "975194138"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd45efbfbd2e67666aefbfbdefbfbd422500efbfbd53efbfbdefbfbdefbfbd3a3a10efbfbd0303efbfbd0e3defbfbdefbfbdc9b225efbfbdefbfbdefbfbd18192e6063efbfbd6a42efbfbdefbfbd55efbfbd62efbfbdd798efbfbdefbfbd77efbfbdefbfbd1a65efbfbd59efbfbdefbfbdefbfbd08efbfbdefbfbdefbfbde88cac17efbfbdefbfbd7c2cefbfbdefbfbde5b0af283cefbfbd6e7eefbfbdefbfbd39efbfbdefbfbdefbfbd6559efbfbdefbfbd", 
+                        "id": "1413438447"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdca8eefbfbd", 
+                        "id": "1292290904"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1572910732"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd27efbfbd1466efbfbd450335efbfbdd9a240efbfbd6c294035efbfbd56efbfbdefbfbd12efbfbd4339efbfbd046674efbfbd704933efbfbd496543efbfbd2aefbfbdefbfbdefbfbdefbfbd216cefbfbdefbfbdefbfbd7eefbfbdefbfbdefbfbd701dcab76befbfbd68efbfbdefbfbd2cefbfbd59efbfbdefbfbd594a06efbfbdefbfbdefbfbddcb2efbfbd2a15efbfbdefbfbd56efbfbd20efbfbd14efbfbd14efbfbd0cefbfbdefbfbd6f7cefbfbdefbfbd6f7cefbfbd", 
+                        "id": "583022029"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1835813813"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd31efbfbd63efbfbd63efbfbdefbfbd43efbfbd5befbfbd1befbfbd0befbfbdefbfbdefbfbd0b4b1befbfbdefbfbdd588112befbfbd5658666246efbfbd1fefbfbd552d4b22efbfbd15efbfbd454c451612efbfbddc8ace8fefbfbdefbfbd38efbfbdefbfbd67efbfbdefbfbdefbfbd6defbfbd1befbfbd19efbfbdefbfbd30efbfbd475145efbfbdefbfbdefbfbd297331efbfbd08efbfbdefbfbdefbfbd203303636aefbfbd61f1bfa288", 
+                        "id": "1835813813"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd014054efbfbdefbfbd7eefbfbdc7b4efbfbd1c6defbfbd7befbfbdefbfbdefbfbd2eefbfbdefbfbd2eefbfbdefbfbd2eefbfbdefbfbd2eefbfbdefbfbd3eefbfbddeb0efbfbd0208efbfbdefbfbdc89763efbfbd45efbfbdefbfbd3376440b5867790fefbfbddeb7efbfbd762fefbfbd7b69efbfbdefbfbd0befbfbdefbfbd0befbfbdefbfbd0befbfbdefbfbd0befbfbdefbfbdcfb2efbfbd546cefbfbdefbfbd5aefbfbd5cefbfbd47c48eefbfbdefbfbdefbfbd17d3b2efbfbd", 
+                        "id": "1254533681"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0614efbfbdefbfbd", 
+                        "id": "1864610592"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd43efbfbdefbfbd", 
+                        "id": "1776394520"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1630688482"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "id": "1250906292"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/4_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "7eefbfbdefbfbd3d", 
+                        "id": "211853743"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "340a", 
+                        "id": "1565210662"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1919965228"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "794241705"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "888752147"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1999552307"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a", 
+                        "id": "355904125"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "585542362"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "73156030"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/4_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "191195962"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1879417039"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "1879417039"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "793585499"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "793585499"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "2105907665"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "2105907665"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1450939664"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363032303030206b420a427566666572733a20202020202020202020203134383536206b420a4361636865643a202020202020202020", 
+                        "id": "1450939664"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1781780737"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "631273310"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "631273310"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1781780737"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "1542595342"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "1542595342"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "222973120"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "222973120"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "1213859770"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1213859770"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "663053185"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "663053185"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "id": "410159258"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1822602801"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "id": "282137745"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/5_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "454343878"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "350a", 
+                        "id": "1815948345"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1525079213"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "106300967"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "106300967"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "568594837"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "568594837"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "926253721"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "926253721"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "386549393"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363033343234206b420a427566666572733a20202020202020202020203134383638206b420a4361636865643a202020202020202020", 
+                        "id": "386549393"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1265490670"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1265490670"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "2137428760"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "2137428760"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "1465847883"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "1465847883"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "688267764"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "688267764"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "951233704"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "951233704"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/6_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2138105227"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/6_task.xml", 
+                        "id": "5104353"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/6_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2119887131"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "360a", 
+                        "id": "90083156"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "2011342750"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "344388317"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "344388317"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "801275908"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "801275908"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "546239208"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "546239208"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1048431740"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363033363736206b420a427566666572733a20202020202020202020203134383936206b420a4361636865643a202020202020202020", 
+                        "id": "1048431740"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1232539883"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "416804449"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "416804449"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1232539883"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "696936330"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "696936330"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "358957861"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "358957861"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "151070218"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "151070218"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "941566890"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "941566890"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/7_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1464546930"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "702044673"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "2117267280"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "56027083"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "1051703300"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4e76efbfbdefb28fefbfbdefbfbd6c6344efbfbd41efbfbd4cefbfbd7a5befbfbd29efbfbd57efbfbd77efbfbd0aefbfbd3befbfbd7eefbfbdefbfbd64273befbfbdefbfbd4e76efbfbdefbfbdefbfbdefbfbd64efbfbd6fefbfbd42efbfbd01efbfbdefbfbd0076efbfbd57e5bb906b0e20efbfbd024defbfbd466fefbfbd1e77e4b9b537efbfbd3a7befbfbd57dbbdefbfbdefbfbd6fefbfbd253befbfbdefbfbd4e76efbfbdefbfbdefbfbdefbfbd641f", 
+                        "id": "407072060"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "583c78efbfbd", 
+                        "id": "329198183"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "1673965847"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6d65", 
+                        "id": "196063835"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "1865305532"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1cefbfbd38efbfbd", 
+                        "id": "7288514"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "271160321"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "2d3d0eefbfbd", 
+                        "id": "1203392950"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdd9a1efbfbd", 
+                        "id": "13979229"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd59efbfbd", 
+                        "id": "1475044181"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6fefbfbdefbfbd", 
+                        "id": "1242606527"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "13efbfbd297fefbfbd5a0aefbfbdefbfbd5523efbfbdefbfbdefbfbdefbfbdefbfbdefbfbd70efbfbd3706efbfbd367eefbfbd716310efbfbdefbfbdefbfbdefbfbd7befbfbd7fefbfbdefbfbdefbfbdefbfbd41efbfbdefbfbd4d1eefbfbdefbfbd3aefbfbd7d240a7aefbfbdefbfbd511d58efbfbdefbfbdddb85defbfbd24efbfbd191c21041732efbfbd07efbfbdefbfbd6b121c1b44efbfbd111befbfbd775e0679651677061407", 
+                        "id": "62102402"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd487befbfbd", 
+                        "id": "651795632"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "1753768351"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6a5650", 
+                        "id": "1110555332"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "2050825054"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6a7169", 
+                        "id": "1197926077"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd15efbfbd30", 
+                        "id": "415079317"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "1756294217"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd46", 
+                        "id": "943720141"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1980302174"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd07efbfbd2c3befbfbd461c2763efbfbd6aefbfbdce97efbfbdefbfbd3b74efbfbd2c4aefbfbdefbfbd2aefbfbdefbfbdefbfbd1fefbfbd284eefbfbdefbfbd5c4d2140d7bcefbfbdefbfbd32542e4f395defbfbdefbfbde59c9fefbfbdefbfbd673353efbfbd6def8c8171efbfbd1878efbfbd5defbfbd05efbfbd434202efbfbdefbfbd08efbfbdefbfbdefbfbd3cefbfbdefbfbdefbfbdefbfbdcf9c6378efbfbd5c47d887efbfbd73", 
+                        "id": "1397346893"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbdefbfbd", 
+                        "id": "275754068"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "525826175"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd36", 
+                        "id": "1395158297"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5022efbfbdefbfbd", 
+                        "id": "143586412"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd3c21efbfbd", 
+                        "id": "1120492177"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd062e2e", 
+                        "id": "2073883222"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "318630727"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "3defbfbd0d50", 
+                        "id": "629064178"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "415172804"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd02717f", 
+                        "id": "799020303"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd52514aefbfbd5d43efbfbd3a4eefbfbd0d0aefbfbd3aefbfbd5b3cefbfbd767defbfbdefbfbd010eefbfbd7b6cefbfbdefbfbdefbfbd2fefbfbdefbfbd3b1c3d78efbfbd2dd6b8efbfbdefbfbd6d560532047f7876381c0eefbfbdefbfbd1c42efbfbd1f62efbfbd4aefbfbd6b5a61efbfbd1cce93efbfbdefbfbd424915efbfbdefbfbd0d3defbfbdefbfbdefbfbd1031efbfbd4aefbfbd42efbfbd3543dc9eefbfbd59", 
+                        "id": "125965177"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0a3fefbfbd0f", 
+                        "id": "1097205831"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "05efbfbd205a", 
+                        "id": "819840644"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1defbfbd6545", 
+                        "id": "1891600782"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdca8eefbfbd", 
+                        "id": "829630424"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd27efbfbd1466efbfbd450335efbfbdd9a240efbfbd6c294035efbfbd56efbfbdefbfbd12efbfbd4339efbfbd046674efbfbd704933efbfbd496543efbfbd2aefbfbdefbfbdefbfbdefbfbd216cefbfbdefbfbdefbfbd7eefbfbdefbfbdefbfbd701dcab76befbfbd68efbfbdefbfbd2cefbfbd59efbfbdefbfbd594a06efbfbdefbfbdefbfbddcb2efbfbd2a15efbfbdefbfbd56efbfbd20efbfbd14efbfbd14efbfbd0cefbfbdefbfbd6f7cefbfbdefbfbd6f7cefbfbd", 
+                        "id": "1875199911"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0614efbfbdefbfbd", 
+                        "id": "2035634961"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "350074796"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd43efbfbdefbfbd", 
+                        "id": "629178400"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "id": "907402963"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/7_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "588839018"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "370a", 
+                        "id": "2034372529"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/7_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "444730779"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "589991875"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/8_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "297694423"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/8_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "920703960"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "380a", 
+                        "id": "1034720516"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "232008210"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "232008210"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "1122118367"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "1122118367"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "680026652"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1388134281"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "680026652"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363032363238206b420a427566666572733a20202020202020202020203134393532206b420a4361636865643a202020202020202020", 
+                        "id": "1388134281"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1498632834"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1498632834"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1007352742"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "1972876791"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "1972876791"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "1332229353"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "1332229353"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "1371588031"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1371588031"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "523189359"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "523189359"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/9_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1383785071"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/9_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1898688039"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "390a", 
+                        "id": "934275521"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "id": "1689794563"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1689794563"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1948780960"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "1948780960"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "1469593852"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "1469593852"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "358764188"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "358764188"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1160907299"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363032313336206b420a427566666572733a20202020202020202020203134393630206b420a4361636865643a202020202020202020", 
+                        "id": "1160907299"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1004631048"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1004631048"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "1123849042"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "1123849042"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "1214185586"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "1214185586"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "772104925"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "1720707856"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "1720707856"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "772104925"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "id": "2084321466"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "547651932"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/10_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1729048154"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31300a", 
+                        "id": "391682878"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "202157311"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "923412669"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "923412669"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "702203290"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "702203290"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1464435169"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363031353136206b420a427566666572733a20202020202020202020203134393638206b420a4361636865643a202020202020202020", 
+                        "id": "1464435169"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "581214455"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "581214455"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "2015180650"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "2015180650"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "25775233"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "25775233"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "1612186326"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "1612186326"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "1571345018"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "1571345018"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "1203875736"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1203875736"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "499062159"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "499062159"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/11_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "484285664"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/11_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1857404256"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31310a", 
+                        "id": "1790277643"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "12576836"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "1832153779"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "1832153779"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "542296167"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "542296167"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "312061779"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "312061779"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1355507868"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363032363430206b420a427566666572733a20202020202020202020203134393830206b420a4361636865643a202020202020202020", 
+                        "id": "1355507868"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "2072540851"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "2072540851"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1180010304"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1180010304"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "162943448"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "162943448"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "1280678862"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "1280678862"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "1576228586"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1576228586"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "1928446698"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "1928446698"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/12_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "335752020"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/12_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "135254351"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31320a", 
+                        "id": "1195843945"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.Madjad.JigSaw.Dolls-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "131665076"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "id": "474204353"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.global.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224e4558545f52554e222076616c75653d2231353238", 
+                        "id": "474204353"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "id": "1281275265"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "1281275265"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "812731707"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "812731707"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "id": "1681277731"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote-><pre-initialized>", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020363031323630206b420a427566666572733a20202020202020202020203134393932206b420a4361636865643a202020202020202020", 
+                        "id": "1681277731"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "ServiceStart", 
+                    "detail": {
+                        "name": "com.apperhand.device.android.AndroidSDKProvider"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "821253442"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "id": "1122753486"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/toastPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2273686f77546f617374222076616c75653d22", 
+                        "id": "1122753486"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "id": "1716824583"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/dialogPref.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c626f6f6c65616e206e616d653d2253686f774164222076616c75653d22747275", 
+                        "id": "1716824583"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "id": "1036893893"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/JigsawPuzzle.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d22706965636538222076616c75653d223122202f3e0a20", 
+                        "id": "1036893893"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "id": "109474360"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.Madjad.JigSaw.Dolls_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "109474360"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "id": "1806890509"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.Madjad.JigSaw.Dolls", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.Madjad.JigSaw.Dolls/shared_prefs/com.apperhand.parameters.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d6170202f3e0a0000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "1806890509"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/13_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1564796831"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/13_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1559171611"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31330a", 
+                        "id": "231484536"
+                    }
+                }
+            ], 
+            "endState": "f0b5629826d718799a35af89a6a2cf47"
+        }
+    }, 
+    "3bef2df9723111f6aef4cf4bb6c07737": {
+        "10905~intent": {
+            "reaction": [], 
+            "endState": "fbdc5dd4bafc3331d0e0ac36dee58d09"
+        }, 
+        "10979~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10956~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10881~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10919~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10812~intent": {
+            "reaction": [], 
+            "endState": "fbdc5dd4bafc3331d0e0ac36dee58d09"
+        }, 
+        "10942~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10931~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10968~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10893~intent": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }
+    }, 
+    "6026d75135def4ccfe2fb3c141a944bb": {
+        "10936~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10856~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10911~key": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10862~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10949~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10984~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10899~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10887~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10876~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10827~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10850~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10925~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10845~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10839~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10973~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10962~intent": {
+            "reaction": [], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }, 
+        "10870~key": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }, 
+        "10820~touch(None,None)": {
+            "reaction": [], 
+            "endState": "6026d75135def4ccfe2fb3c141a944bb"
+        }
+    }
+}

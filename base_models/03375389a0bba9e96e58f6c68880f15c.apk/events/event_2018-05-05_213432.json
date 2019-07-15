@@ -1,0 +1,7 @@
+{
+  "tag": "2018-05-05_213432", 
+  "event": {
+    "intent": "am start com.keji.danti726/com.keji.danti.MainA", 
+    "event_type": "intent"
+  }
+}

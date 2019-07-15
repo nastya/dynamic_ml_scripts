@@ -1,0 +1,3559 @@
+{
+    "3a05425ab535b9dd6998a56d97b3af80": {
+        "217~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "39~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }
+    }, 
+    "bbe2cc1c14268ff29a4b3a277fa8db1a": {
+        "298~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.jerry.android.wc-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/appPrefrences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22656d756c61746f724465766963654964223e65", 
+                        "id": "1767714375"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/wcgames.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d226e6565644164223e313c2f737472696e673e0a", 
+                        "id": "844077314"
+                    }
+                }
+            ], 
+            "endState": "578ba5102964bdd9ab2a8ca10dbb1682"
+        }, 
+        "284~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.jerry.android.wc-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/appPrefrences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22656d756c61746f724465766963654964223e65", 
+                        "id": "1313747661"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/wcgames.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d226e6565644164223e313c2f737472696e673e0a", 
+                        "id": "1706945116"
+                    }
+                }
+            ], 
+            "endState": "578ba5102964bdd9ab2a8ca10dbb1682"
+        }, 
+        "311~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.jerry.android.wc-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/appPrefrences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22656d756c61746f724465766963654964223e65", 
+                        "id": "1790198145"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/wcgames.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d226e6565644164223e313c2f737472696e673e0a", 
+                        "id": "1902641274"
+                    }
+                }
+            ], 
+            "endState": "578ba5102964bdd9ab2a8ca10dbb1682"
+        }
+    }, 
+    "a68c5cb67b7ab2ac3a8f93069ec0ea2b": {
+        "166~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "119~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "101~scroll": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "id": "1567804167"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "270600546"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "200~scroll": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "23340879"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "5a4ea01c5ce3640bd961ca947a6d4f8b"
+        }, 
+        "241~scroll": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1705674493"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "269~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }
+            ], 
+            "endState": "7f52de816227d4073842d8d17022cd21"
+        }, 
+        "257~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "309~intent": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/18_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "677141213"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31380a", 
+                        "id": "707087235"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }
+            ], 
+            "endState": "bbe2cc1c14268ff29a4b3a277fa8db1a"
+        }, 
+        "282~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }
+            ], 
+            "endState": "bbe2cc1c14268ff29a4b3a277fa8db1a"
+        }, 
+        "231~key": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1284222126"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "150~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "133~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }
+    }, 
+    "ab2b32b753a2e3b49a3ca7453be6c9c3": {
+        "174~key": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }, 
+        "316~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "250~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "81~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "194~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "276~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "178~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "13~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "110~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "159~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "9~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "261~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "95~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "225~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "127~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "71~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "302~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "210~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "141~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "112~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "546341757"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "288~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "15~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }, 
+        "31~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "19~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }, 
+        "23~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }
+    }, 
+    "7f52de816227d4073842d8d17022cd21": {
+        "271~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.jerry.android.wc-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/appPrefrences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22656d756c61746f724465766963654964223e65", 
+                        "id": "765285002"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/wcgames.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d226e6565644164223e313c2f737472696e673e0a", 
+                        "id": "1574920171"
+                    }
+                }
+            ], 
+            "endState": "d833ee6726f5b7652afe9525ca147ec1"
+        }
+    }, 
+    "fd4f7502993bb8b944b00c1959ba77d5": {
+        "77~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "196~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1905457586"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "id": "471982521"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "471982521"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "180~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "id": "1842099701"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1842099701"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "755286188"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "227~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1990586191"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "832766915"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "75~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "34~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "832383006"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353639303132206b420a427566666572733a20202020202020202020203135313536206b420a4361636865643a202020202020202020", 
+                        "id": "339181381"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1926297753"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1888904171"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "id": "282486311"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1790624481"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "11~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "318~touch(None,None)": {
+            "reaction": [], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "212~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1303528606"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1367225756"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "id": "1833843997"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1375038962"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "161~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1192474343"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "2040339829"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1301205939"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "114~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "626866571"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1872519608"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "305~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "976943444"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "970028457"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353338353630206b420a427566666572733a20202020202020202020203135343034206b420a4361636865643a202020202020202020", 
+                        "id": "1555888546"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1018667117"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "631668237"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "97~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "886259701"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1975027148"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "278~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "2102814224"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "402248064"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353331343932206b420a427566666572733a20202020202020202020203135333932206b420a4361636865643a202020202020202020", 
+                        "id": "432266848"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "723995951"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "425686331"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/16_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1779205905"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31360a", 
+                        "id": "1501643415"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "82~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1878414389"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "263~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1613146604"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "815376549"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1564683690"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "73~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1632726222"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }, 
+        "290~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/app/webview/webview.apk"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/WebViewChromiumPrefs.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c696e74206e616d653d226c61737456657273696f6e436f646555736564222076", 
+                        "id": "58639106"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202031353530363830206b420a4d656d467265653a20202020202020202020353439363434206b420a427566666572733a20202020202020202020203135333936206b420a4361636865643a202020202020202020", 
+                        "id": "1876743745"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "read", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1061001210"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "409676641"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/com.jerry.android.wc_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22417070205265737472696374696f6e73223e41", 
+                        "id": "1205729691"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/17_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "237773442"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31370a", 
+                        "id": "1534270433"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "79~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "143~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "693252566"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "2135276909"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "888877264"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "237~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1621374814"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "278122054"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "129~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1097237824"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1830680003"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1037929401"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }, 
+        "252~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1465513885"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1761030517"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1238165365"
+                    }
+                }
+            ], 
+            "endState": "fc9bf00315c8f58b43ad7d02f96a114c"
+        }
+    }, 
+    "578ba5102964bdd9ab2a8ca10dbb1682": {
+        "286~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "read", 
+                        "data": "2e6578616d706c652e616e64726f69642e6c69766563756265733b2e6578616d706c652e616e64726f69642e617069733b2e6a657272792e616e64726f69642e77633b2e616e64726f69642e676573747572652e6275696c6465723b0000000000000000", 
+                        "id": "2017001187"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/17_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1057569373"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "300~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "id": "1625484595"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "read", 
+                        "data": "2e6578616d706c652e616e64726f69642e6c69766563756265733b2e6578616d706c652e616e64726f69642e617069733b2e6a657272792e616e64726f69642e77633b2e616e64726f69642e676573747572652e6275696c6465723b0000000000000000", 
+                        "id": "97651227"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/18_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1557412228"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "313~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "id": "320740011"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "read", 
+                        "data": "2e6578616d706c652e616e64726f69642e6c69766563756265733b2e6578616d706c652e616e64726f69642e617069733b2e6a657272792e616e64726f69642e77633b2e616e64726f69642e676573747572652e6275696c6465723b0000000000000000", 
+                        "id": "1139087649"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/19_task.xml", 
+                        "id": "1639239644"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/19_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "493216309"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }
+    }, 
+    "f7e5944009d5dc6519f1c52b64a85c51": {
+        "0~key": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/data/app/com.jerry.android.wc-2/base.apk"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/appPrefrences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d22656d756c61746f724465766963654964223e65", 
+                        "id": "873325324"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1111125379"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/data/com.jerry.android.wc/shared_prefs/wcgames.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c737472696e67206e616d653d226e6565644164223e313c2f737472696e673e0a", 
+                        "id": "1036817962"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "read", 
+                        "data": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "1726230795"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "id": "1782478299"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.jerry.android.wc", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "write", 
+                        "data": "2e6578616d706c652e616e64726f69642e6c69766563756265733b2e6578616d706c652e616e64726f69642e617069733b2e6a657272792e616e64726f69642e77633b2e616e64726f69642e676573747572652e6275696c6465723b", 
+                        "id": "1782478299"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1304755630"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "321232936"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_de/0/persisted_taskIds.txt", 
+                        "operation": "write", 
+                        "data": "31350a", 
+                        "id": "1441153546"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4a732befbfbd", 
+                        "id": "1335703248"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "330befbfbdefbfbd", 
+                        "id": "163916271"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "78efbfbddcbd4defbfbd6d497626efbfbdefbfbdefbfbd38efbfbdd890efbfbdefbfbd071628efbfbd0d5d030fefbfbd6defbfbd14efbfbd40056e70190cefbfbdefbfbd076aefbfbd20efbfbd1eefbfbd68efbfbd653c30c2a31a19efbfbd076eefbfbd06efbfbdefbfbd41db8547250fefbfbdefbfbd41434d1aefbfbd03efbfbd6a60efbfbd6aefbfbdefbfbd14efbfbdefbfbd3574efbfbd2befbfbdefbfbd7befbfbd12efbfbdefbfbd27efbfbd", 
+                        "id": "139304162"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "000d416cefbfbd78efbfbdefbfbd49efbfbdefbfbd6a7b62efbfbdefbfbd33efbfbd47efbfbd1044efbfbd0befbfbdefbfbde6bfa2efbfbdefbfbdefbfbd024f3e23efbfbd6aefbfbd6defbfbd58efbfbd1defbfbdefbfbdefbfbdda8fefbfbdefbfbd3d07cba4efbfbdefbfbd416eefbfbd773163efbfbdefbfbdefbfbd26083d1defbfbd2206512465626b773c46efbfbd7defbfbdefbfbdefbfbdefbfbdc798efbfbd0befbfbdefbfbd3a74efbfbd0f", 
+                        "id": "761182458"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd1cefbfbd", 
+                        "id": "923223074"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1667254057"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd54efbfbd2e", 
+                        "id": "1905732236"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "519018739"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "271befbfbdefbfbd", 
+                        "id": "883642046"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1213640990"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "6a3f6eefbfbd", 
+                        "id": "925008646"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1583467792"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1300383884"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1fefbfbd42", 
+                        "id": "2103965445"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "2127859306"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd04410c1e0f2aefbfbdefbfbd2cefbfbdefbfbdefbfbd2aefbfbd2346efbfbdefbfbd2eefbfbd7008efbfbd440a04efbfbd36efbfbd1defbfbd3e034c3772efbfbdefbfbdefbfbdefbfbdefbfbd4a715eefbfbdefbfbdefbfbd7befbfbd6f0358cf95efbfbd4221efbfbdefbfbd0013efbfbd2e4befbfbdefbfbd57efbfbd123379efbfbd466cefbfbd3b4cefbfbd43752a0471efbfbd61efbfbd45efbfbd733e077b", 
+                        "id": "61199758"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1f66efbfbdefbfbd", 
+                        "id": "1485094753"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1205724874"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1270119073"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "103447586"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "24294052", 
+                        "id": "1876827493"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd68395d", 
+                        "id": "60419219"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "c2a6efbfbd1255efbfbd24efbfbd2a090f7cefbfbd5f46efbfbd7eefbfbdefbfbd5217efbfbdefbfbdefbfbd00efbfbdefbfbd39efbfbd3d6356dca75aefbfbd705814663defbfbd17efbfbd2eefbfbdefbfbd2eefbfbd6c113f60efbfbdd89bdfb344efbfbd2a0defbfbd3842efbfbd0aefbfbdefbfbd65efbfbd20efbfbd5d26efbfbdefbfbd06efbfbd09efbfbdefbfbd4262efbfbdefbfbd5c75efbfbd4e186900264346", 
+                        "id": "2082767261"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "609805013"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5aefbfbd2c60", 
+                        "id": "1861264006"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd65efbfbdefbfbd48efbfbd7d37efbfbd5defbfbd1674efbfbd2defbfbdefbfbd71d3bfefbfbdefbfbdefbfbdefbfbd2f7cefbfbd2defbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbd5850efbfbd04efbfbdefbfbdefbfbdefbfbd0cefbfbdefbfbd31cf9036efbfbd3c48efbfbd3eefbfbdefbfbd1fefbfbdefbfbd1f25efbfbdefbfbd3fefbfbdc59fefbfbdefbfbdefbfbd2f1e22efbfbdefbfbdefbfbd3f08efbfbd4defbfbdefbfbdd9a769efbfbdefbfbdefbfbd2eefbfbd4defbfbd", 
+                        "id": "1947360569"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6f6defbfbd", 
+                        "id": "572233349"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "41efbfbd5462efbfbd1cefbfbdefbfbdefbfbdefbfbd4de4b49f42efbfbdefbfbd6c20efbfbdefbfbdefbfbd0951efbfbdefbfbd40efbfbdefbfbdefbfbdefbfbd1600efbfbdefbfbd4eefbfbd59efbfbd34efbfbd12efbfbd4aefbfbdefbfbdefbfbd3e3cefbfbdefbfbd1a702cefbfbdefbfbdefbfbd47efbfbd080eefbfbd2f5befbfbd2c63efbfbd5a45efbfbd406defbfbdefbfbd25efbfbdefbfbdefbfbdefbfbd2f4e47efbfbd7befbfbdefbfbd6619efbfbd275befbfbdefbfbd3e", 
+                        "id": "1322146429"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "117aefbfbd09", 
+                        "id": "1050413044"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5f391521", 
+                        "id": "381783626"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "431eefbfbdefbfbd", 
+                        "id": "1447413043"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd09efbfbd69", 
+                        "id": "367282221"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "498445717"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5aefbfbd7e72", 
+                        "id": "921348287"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "596358851"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "216a2502", 
+                        "id": "601758431"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1854420955"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4aefbfbd2144", 
+                        "id": "1488622183"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "06cebbefbfbdefbfbd3defbfbd70c9b33c12efbfbd2e09efbfbd62efbfbd373f0eefbfbd73003befbfbdde84efbfbd5ecfb42663c581efbfbd5e34efbfbdefbfbdefbfbdefbfbdd1b75adbbd6e1cc4bd2a544cefbfbdefbfbd3aefbfbdefbfbd59efbfbdefbfbd661cefbfbdefbfbd45efbfbd09efbfbdefbfbdefbfbd67efbfbdefbfbd1667efbfbdefbfbdefbfbdefbfbdefbfbd0befbfbd6d243b4771efbfbdefbfbdefbfbdefbfbdefbfbdefbfbd6aefbfbdefbfbdefbfbd", 
+                        "id": "252396074"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "2e744c0a", 
+                        "id": "1288557286"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1968187512"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1053173797"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "2108727264"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "3a6fefbfbdefbfbd", 
+                        "id": "863496851"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "51efbfbd5360", 
+                        "id": "1284407858"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "07271b0a", 
+                        "id": "217247551"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "379002971"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd7eefbfbd5fefbfbd752cefbfbddf8aefbfbdefbfbd1ad3b76d47efbfbd4719efbfbd7872567bcc88694d7b5aefbfbdefbfbdefbfbd67467befbfbd03efbfbdefbfbd7aefbfbd2befbfbdefbfbd63efbfbd4cda87efbfbd06efbfbd7f0defbfbd0d753b4aefbfbd3504efbfbdefbfbdefbfbdefbfbd3fefbfbd02431fd4b5542befbfbd745defbfbd496111efbfbdefbfbdefbfbdc7a4efbfbd35efbfbd5ddebf5b4e27", 
+                        "id": "299793947"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "41efbfbd1cefbfbd", 
+                        "id": "1514316623"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "336390017"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "722536045"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "71efbfbdefbfbd0b", 
+                        "id": "1034130387"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1712454521"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdd6aa", 
+                        "id": "2029779586"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1629931029"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "6359566"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "6eefbfbd1cefbfbd", 
+                        "id": "450302621"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "832502808"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0731efbfbd53", 
+                        "id": "611267728"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1954441311"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd333231", 
+                        "id": "177230758"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "3427efbfbdefbfbd53efbfbd2eefbfbd34d68f2e1eefbfbd73efbfbd36efbfbdefbfbdefbfbd4757efbfbd0befbfbdefbfbdefbfbd53efbfbdefbfbdefbfbd6fefbfbdefbfbdefbfbd74efbfbdefbfbd2eefbfbdefbfbdefbfbdefbfbd591644efbfbd4510015eefbfbdefbfbdefbfbdefbfbdefbfbd5fe38794546d3fefbfbd4f067112efbfbd5e173cefbfbdefbfbd170fefbfbd4fefbfbdefbfbdefbfbd3defbfbd2aefbfbd6fcfb42c6f554e7aefbfbdefbfbd01efbfbd", 
+                        "id": "1248379143"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "09efbfbd4aefbfbd", 
+                        "id": "1617165908"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "ce9d5d64", 
+                        "id": "817038390"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd633defbfbd", 
+                        "id": "1088642999"
+                    }
+                }
+            ], 
+            "endState": "3bef2df9723111f6aef4cf4bb6c07737"
+        }
+    }, 
+    "e3234cddd8030b872138fceed645aa97": {
+        "30~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "17~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "28~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }, 
+        "24~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "156664016"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }, 
+        "26~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "e3234cddd8030b872138fceed645aa97"
+        }, 
+        "20~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "176~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "1118118183"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }
+    }, 
+    "1e6d818858ce904e6da7b03412fab625": {
+        "221~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "91~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "189~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "154~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "59~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "67~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "122~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "8379315582da85bc104d05b14361fc5d"
+        }, 
+        "185~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "51~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "205~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/wm.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "170~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "55~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "245~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }, 
+        "63~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "47~scroll": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "43~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "106~key": {
+            "reaction": [
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "86~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "303488032"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }, 
+        "137~key": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "1e6d818858ce904e6da7b03412fab625"
+        }
+    }, 
+    "d833ee6726f5b7652afe9525ca147ec1": {
+        "273~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "read", 
+                        "data": "2e6578616d706c652e616e64726f69642e6c69766563756265733b2e6578616d706c652e616e64726f69642e617069733b2e6a657272792e616e64726f69642e77633b2e616e64726f69642e676573747572652e6275696c6465723b0000000000000000", 
+                        "id": "398872217"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/storage/emulated/0/Android/Package.dat", 
+                        "operation": "read", 
+                        "data": "2e6578616d706c652e616e64726f69642e6c69766563756265733b2e6578616d706c652e616e64726f69642e617069733b2e6a657272792e616e64726f69642e77633b2e616e64726f69642e676573747572652e6275696c6465723b0000000000000000", 
+                        "id": "486385215"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/16_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "236188976"
+                    }
+                }, 
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "ab2b32b753a2e3b49a3ca7453be6c9c3"
+        }
+    }, 
+    "f0b5629826d718799a35af89a6a2cf47": {
+        "4~intent": {
+            "reaction": [
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "995152671"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "60efbfbd746a", 
+                        "id": "1378722134"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1265119167"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdd6895e", 
+                        "id": "717570234"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "34efbfbdefbfbd517befbfbd453517efbfbd2037efbfbddc806310232cefbfbd6aefbfbd4e5befbfbdefbfbd5e672565495e2512443d4e40efbfbd2b67efbfbdefbfbd3befbfbd5ce495943c713defbfbdefbfbd1defbfbdefbfbdefbfbd09efbfbdefbfbdefbfbd3eefbfbd4124efbfbd0829efbfbd003cc989efbfbd2411efbfbdefbfbdefbfbdefbfbd2279020f07efbfbd3503efbfbd604b56efbfbdefbfbdefbfbdefbfbd2f5e49", 
+                        "id": "1090107473"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdd29955", 
+                        "id": "390269183"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1986787452"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd217aefbfbd3f6f0d22efbfbdefbfbdefbfbdefbfbd6f79efbfbdefbfbdefbfbd7e6befbfbdd7ba43efbfbd7cefbfbdefbfbdefbfbdefbfbdefbfbd72efbfbd20525712efbfbd38efbfbdefbfbd3eefbfbdefbfbd1befbfbd61efbfbdefbfbd3b15697538efbfbdefbfbd716f67efbfbd43efbfbd496fefbfbdefbfbd380cefbfbdefbfbd725010efbfbdefbfbdcf8fefbfbd5a63efbfbd77efbfbdefbfbdefbfbdefbfbdefbfbdefbfbd07efbfbdefbfbdefbfbd7cefbfbdefbfbd", 
+                        "id": "1608542271"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1951946060"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd5fefbfbd6d", 
+                        "id": "2108407562"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "0000200049444154", 
+                        "id": "1916205554"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd0663", 
+                        "id": "597992554"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "248194307"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd65efbfbd", 
+                        "id": "1932409578"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1076777672"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd7c1b", 
+                        "id": "721724316"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "6f7c10efbfbd611c44efbfbdefbfbd2a6b38efbfbd060731efbfbdceaf12efbfbd030708efbfbd5c132dddadefbfbd51efbfbd39efbfbd17efbfbdefbfbd5fefbfbdefbfbd000f27efbfbd687a64efbfbd6aefbfbdefbfbd2649efbfbd6cefbfbd36efbfbd38efbfbd351526efbfbdefbfbdefbfbd6e02efbfbd467e7befbfbdefbfbdefbfbdefbfbdefbfbdefbfbd6cefbfbd25125cecbb92632aefbfbdefbfbd3c4811efbfbd", 
+                        "id": "1939066607"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbdefbfbd", 
+                        "id": "1516840103"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd48", 
+                        "id": "1894958937"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd597b6cefbfbd5fefbfbd4cefbfbdefbfbd17efbfbd6f3cefbfbd20efbfbdefbfbd5defbfbdefbfbd600c7fefbfbd41efbfbd09efbfbdefbfbdefbfbd63efbfbd5847efbfbd221cefbfbd4459efbfbd2aefbfbd67efbfbdefbfbd4744efbfbd79401e2601efbfbd58efbfbd63efbfbdefbfbd1cefbfbd6cefbfbd11efbfbdefbfbd7d64efbfbdefbfbdd98a1dc4b16270efbfbd5cefbfbdd689efbfbd70efbfbdefbfbd47efbfbd71efbfbdefbfbdefbfbdefbfbd58", 
+                        "id": "179708697"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdc78defbfbd", 
+                        "id": "1936617433"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "444740321"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "424befbfbdefbfbd", 
+                        "id": "617122324"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1662903369"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd69efbfbd7eefbfbdefbfbd7a5defbfbd1befbfbd1cefbfbdefbfbd1825efbfbdefbfbd5f5cefbfbd2246efbfbd18efbfbdefbfbd5578efbfbdefbfbd3fefbfbdefbfbd1aefbfbdefbfbdefbfbd4eefbfbdefbfbd6aefbfbdefbfbdefbfbd661eefbfbdefbfbdefbfbd417110031576efbfbd00efbfbdefbfbd39efbfbdefbfbd0843efbfbd7237efbfbd38efbfbdefbfbd020e22efbfbd2fefbfbd0eefbfbd65dca1efbfbd40efbfbd22080327efbfbd5e", 
+                        "id": "748571944"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5002636b", 
+                        "id": "1553388463"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbdefbfbd70101d67efbfbd31efbfbd524defbfbd63565438efbfbd3662efbfbd1a003eefbfbdefbfbdefbfbd6b6fefbfbdefbfbdefbfbdefbfbd1d47d6b3efbfbd05efbfbd1d41246a3a09efbfbdefbfbd5d19efbfbdefbfbdefbfbdefbfbd6a27efbfbdefbfbdefbfbd1a517c7defbfbdd889457c0c40c4a02aefbfbdefbfbd1d00efbfbdefbfbd4f1101efbfbdefbfbdefbfbdd1b4efbfbdefbfbd460aefbfbd48efbfbdefbfbdefbfbdefbfbd3a", 
+                        "id": "337282409"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1155420411"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd0eefbfbd", 
+                        "id": "577169870"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "768003439"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbdefbfbd0b45", 
+                        "id": "1455743408"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "23463809"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "70527e134724efbfbd67efbfbdefbfbdefbfbd7510efbfbdefbfbd20efbfbd5b12efbfbd66efbfbd26efbfbd710a77563b60efbfbdefbfbdcda217efbfbd2f45efbfbd65efbfbd794fefbfbdefbfbd5c3d0a1fefbfbdefbfbdefbfbdceb3efbfbd19efbfbdefbfbd4defbfbd56efbfbd204c44404959efbfbd1b600aefbfbdefbfbd40efbfbd03efbfbd4aefbfbdefbfbd4a0defbfbdda9c03efbfbdefbfbd28efbfbdefbfbdefbfbdefbfbdefbfbd", 
+                        "id": "23463809"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "565951efbfbd", 
+                        "id": "1205094344"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "60efbfbd36efbfbd", 
+                        "id": "1153039137"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd5a28efbfbd", 
+                        "id": "847121024"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "3eefbfbd4940efbfbdefbfbdefbfbdefbfbd771ed0bdefbfbdefbfbdefbfbd7c31efbfbdefbfbd12efbfbdefbfbdefbfbdefbfbd074561efbfbdefbfbd52efbfbd6875efbfbd235f527aefbfbd53efbfbd6107efbfbdefbfbdefbfbdefbfbdefbfbdefbfbd754526efbfbdefbfbd2bda9e7f20dda36b15efbfbd554fd8a1720befbfbd4eefbfbd7eefbfbd667c05efbfbdefbfbd1d50efbfbd616cefbfbd4fefbfbdefbfbdefbfbdefbfbd7d64efbfbdefbfbdefbfbd30efbfbd", 
+                        "id": "347207159"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "2d526b6f", 
+                        "id": "896407538"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "5eefbfbdefbfbd7e11efbfbdefbfbd42d9a8d2b9754aefbfbdefbfbdefbfbdefbfbdefbfbd097775546070efbfbd68efbfbdefbfbd1aefbfbdefbfbdefbfbdefbfbd73efbfbdefbfbdefbfbd7d6cefbfbd63efbfbd100811efbfbd4befbfbdefbfbd1befbfbdefbfbdefbfbdefbfbdefbfbd4d0a7b46efbfbdefbfbd18efbfbd02efbfbdefbfbd50efbfbd7a645b6f4f6defbfbd3e7f527274180eefbfbddf9c1d020d1eefbfbd6345efbfbd72efbfbd0d43", 
+                        "id": "936223006"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd0cefbfbdefbfbd", 
+                        "id": "1496560992"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1845931547"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "4eefbfbdefbfbdefbfbd", 
+                        "id": "1472456407"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "7b27efbfbdefbfbd", 
+                        "id": "1131041767"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "242092125"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1776049994"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "e4a4bfefbfbd", 
+                        "id": "134893381"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "249874123"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "27723c6f", 
+                        "id": "1493567301"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd6144efbfbd", 
+                        "id": "321644054"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd2b2b", 
+                        "id": "449828210"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "35efbfbdefbfbd7f", 
+                        "id": "2131194199"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "6d0761efbfbd", 
+                        "id": "1630519494"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1025474204"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "1924efbfbd57", 
+                        "id": "1758218554"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "2971d98f", 
+                        "id": "1541101413"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "15efbfbd71efbfbd", 
+                        "id": "995869126"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "7e48efbfbdefbfbd", 
+                        "id": "1011927027"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FdAccess", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "id": "1272682269"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_images/15_task_thumbnail.png", 
+                        "operation": "write", 
+                        "data": "efbfbd4260efbfbd", 
+                        "id": "921012979"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c7461736b207461736b5f69643d22313522207265616c5f61637469766974793d22636f6d2e6a65727279", 
+                        "id": "1555257870"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "2044509227"
+                    }
+                }, 
+                {
+                    "process": "/init->/sbin/adbd->app_process", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->com.android.systemui", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/user_de/0/com.android.systemui/shared_prefs/com.android.systemui.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a202020203c6c6f6e67206e616d653d224f766572766965774c617374537461636b5461736b", 
+                        "id": "1803492416"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c7461736b207461736b5f69643d22313522207265616c5f61637469766974793d22636f6d2e6a65727279", 
+                        "id": "951568327"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "361579176"
+                    }
+                }, 
+                {
+                    "process": "/init->zygote->system_server", 
+                    "type": "FileRW", 
+                    "detail": {
+                        "path": "/data/system_ce/0/recent_tasks/15_task.xml", 
+                        "operation": "write", 
+                        "data": "0a", 
+                        "id": "254440446"
+                    }
+                }
+            ], 
+            "endState": "123539c76eadf826352adae655d25b0f"
+        }
+    }, 
+    "8379315582da85bc104d05b14361fc5d": {
+        "235~touch(None,None)": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/input.jar"
+                    }
+                }
+            ], 
+            "endState": "fd4f7502993bb8b944b00c1959ba77d5"
+        }
+    }, 
+    "ee2d8654d9ea8ee1bee5ace9b52f80a2": {
+        "295~intent": {
+            "reaction": [
+                {
+                    "process": "", 
+                    "type": "DexClassLoader", 
+                    "detail": {
+                        "path": "/system/framework/am.jar"
+                    }
+                }
+            ], 
+            "endState": "bbe2cc1c14268ff29a4b3a277fa8db1a"
+        }
+    }
+}

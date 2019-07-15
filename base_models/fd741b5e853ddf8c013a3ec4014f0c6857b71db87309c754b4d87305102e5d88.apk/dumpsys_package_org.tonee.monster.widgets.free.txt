@@ -1,0 +1,98 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8167cdb org.tonee.monster.widgets.free/.AcHelp filter 1210330
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        8001378 org.tonee.monster.widgets.free/.AcConfigure2x2 filter 1272ba9
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          AutoVerify=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        4c70a51 org.tonee.monster.widgets.free/.airpush.BootReceiver filter a1af873
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.HOME"
+          AutoVerify=false
+      android.appwidget.action.APPWIDGET_UPDATE:
+        98a42b6 org.tonee.monster.widgets.free/.Widget2x2 filter 483ce2
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          AutoVerify=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.airpush.android.PushServiceStart16433:
+        ef60bb7 org.tonee.monster.widgets.free/com.airpush.android.PushService filter 42d21ad
+          Action: "com.airpush.android.PushServiceStart16433"
+          AutoVerify=false
+
+Key Set Manager:
+  [org.tonee.monster.widgets.free]
+      Signing KeySets: 12
+
+Packages:
+  Package [org.tonee.monster.widgets.free] (cdeef24):
+    userId=10069
+    pkg=Package{1a0fa8d org.tonee.monster.widgets.free}
+    codePath=/data/app/org.tonee.monster.widgets.free-1
+    resourcePath=/data/app/org.tonee.monster.widgets.free-1
+    legacyNativeLibraryDir=/data/app/org.tonee.monster.widgets.free-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=5 minSdk=4 targetSdk=4
+    versionName=1.3
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{3efd442 org.tonee.monster.widgets.free}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/org.tonee.monster.widgets.free
+    supportsScreens=[small, medium, large, resizeable, anyDensity]
+    timeStamp=2018-06-05 21:32:06
+    firstInstallTime=2018-06-05 21:32:06
+    lastUpdateTime=2018-06-05 21:32:06
+    signatures=PackageSignatures{cd5ac53 [85b31c8f]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_WIFI_STATE
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      com.android.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.READ_SETTINGS
+      com.motorola.launcher.permission.READ_SETTINGS
+      com.motorola.dlauncher.permission.READ_SETTINGS
+      com.lge.launcher.permission.READ_SETTINGS
+      com.motorola.launcher.permission.INSTALL_SHORTCUT
+      com.motorola.dlauncher.permission.INSTALL_SHORTCUT
+      com.lge.launcher.permission.INSTALL_SHORTCUT
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.READ_PHONE_STATE: granted=true
+      com.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+    User 0: ceDataInode=98861 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:
+
+
+Dexopt state:
+  [org.tonee.monster.widgets.free]
+    Instruction Set: x86
+      path: /data/app/org.tonee.monster.widgets.free-1/base.apk
+      status: /data/app/org.tonee.monster.widgets.free-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kO
+      atUpToDate]
