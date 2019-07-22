@@ -483,11 +483,8 @@ def experiment():
 		classifier = KNeighborsClassifier(n_neighbors = 3, metric = 'euclidean', weights = 'uniform', p = 3)
 		classifier.fit(X_train, y_train)
 
-		time_start = time.time()
 		# Predicting the Test set results
 		y_pred = classifier.predict(X_test)
-		time_stop = time.time()
-		print 'Time:', time_stop-time_start, len(X_test)
 
 		# Making the Confusion Matrix
 		from sklearn.metrics import confusion_matrix
