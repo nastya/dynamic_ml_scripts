@@ -11,8 +11,13 @@ import time
 from collections import defaultdict
 import statsmodels.formula.api as sm
 
-path = "fvs_exp_drebin_anserverbot_droiddream_23.08/"
+path = "/home/nastya/test_scripts/compare_dyn_models/compare_short/fvs_exp_drebin_anserverbot_droiddream_23.08/"
+if len(sys.argv) > 1:
+	path = sys.argv[1]
+
 api_fvs_path = "/home/nastya/test_scripts/compare_dyn_models/api_fvs/merge/"
+if len(sys.argv) > 2:
+	path = sys.argv[2]
 
 row_length = 261
 count = 0
