@@ -92,12 +92,10 @@ def load_models(filename, prefix):
 	for m in open(filename, 'r').readlines():
 		base_models_list.append(prefix + '/' + m[:-1])
 
-load_models("anserverbot_models.txt", "/home/nastya/dyn_experiment/anserverbot/")
-load_models("opfake_models.txt", "/home/nastya/dyn_experiment/opfake/")
-load_models("plankton_models.txt", "/home/nastya/dyn_experiment/plankton/")
-load_models("droiddream_models.txt", "/home/nastya/dyn_experiment/droiddream/")
-
-
+load_models("base_models/anserverbot_models.txt", "base_models/")
+load_models("base_models/opfake_models.txt", "base_models/")
+load_models("base_models/plankton_models.txt", "base_models/")
+load_models("base_models/droiddream_models.txt", "base_models/")
 
 filtered_models = []
 model_names = []
