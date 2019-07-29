@@ -7,7 +7,6 @@ import os
 import json
 import math
 import sys
-import time
 from collections import defaultdict
 import statsmodels.formula.api as sm
 import interesting_api
