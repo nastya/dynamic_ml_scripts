@@ -22,6 +22,14 @@ if len(sys.argv) > 2:
 row_length = 261
 count = 0
 
+def is_essential_model(model_api):
+	# Essential model has permission-protected API in its dynamic trace
+	for elem in interesting_api.interesting_api:
+		elem = elem.replace('/', '.').replace(';', '.')[1:]
+		if elem in model_api and model_api[elem] == 1:
+			return True
+	return False
+
 def print_results_tex(results):
 	table = ''
 	for name in results:
@@ -100,25 +108,20 @@ load_models("base_models/droiddream_models.txt", "base_models/")
 filtered_models = []
 model_names = []
 
-empty_api_anserverbot = open("empty_api_vectors_anserverbot.txt", 'r').read().split()
-empty_api_opfake = open("empty_api_vectors_opfake.txt", 'r').read().split()
-empty_api_plankton = open("empty_api_vectors_plankton.txt", 'r').read().split()
-empty_api_droiddream = open("empty_api_vectors_droiddream.txt", 'r').read().split()
-
-essential_models = json.loads(open("essential_models_api.json", 'r').read())
-
 for i,f in enumerate(os.listdir(path)):
 	model = json.loads(open(path + f, 'r').read())
 	if not os.path.isfile(api_fvs_path + f + '.json'):
 		#print model["f_name"], 'no corresponding API model'
 		continue
-	if not 'benign' in model["f_name"] and not model["f_name"] in essential_models: #wrong condition
+
+	model_api = json.loads(open(api_fvs_path + f + '.json', 'r').read())
+	if not 'benign' in model["f_name"] and not is_essential_model(model_api):
 		continue
-	if model["fv"][0] == 0 or f in empty_api_anserverbot or f in empty_api_opfake or f in empty_api_plankton or f in empty_api_droiddream:
+	if model["fv"][0] == 0 or (not is_essential_model(model_api) and not 'benign' in model["f_name"]):
 		if model["f_name"] in base_models_list:
 			#print 'Base model too small, filtered out', model["f_name"]
 			pass
-		if f in empty_api_anserverbot or f in empty_api_opfake or f in empty_api_plankton or f in empty_api_droiddream:
+		if not is_essential_model(model_api):
 			#print model["f_name"], 'filtered, empty api'
 			pass
 		else:
@@ -129,7 +132,7 @@ for i,f in enumerate(os.listdir(path)):
 		continue #filtering models used for fv building
 	filtered_models.append(f)
 	model_names.append(model["f_name"])
-	
+
 count = len(filtered_models)
 
 X = np.empty((count, row_length))
