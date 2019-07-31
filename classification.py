@@ -11,6 +11,11 @@ from collections import defaultdict
 import statsmodels.formula.api as sm
 import interesting_api
 
+'''
+    Usage: ./classification.py <directory with feature vectors regarding actions model>
+                               <directory with feature vectors regarding API model>
+'''
+
 path = "/home/nastya/test_scripts/compare_dyn_models/compare_short/fvs_exp_drebin_anserverbot_droiddream_23.08/"
 if len(sys.argv) > 1:
 	path = sys.argv[1]
