@@ -13,11 +13,11 @@ models = []
 
 models_for_processing_dir = "/home/nastya/dyn_experiment/benign_test_100/"
 if len(sys.argv) > 1:
-    models_for_processing_dir = sys.argv[1]
+	models_for_processing_dir = sys.argv[1]
 
 fvs_dir = "test_time/" # where we store generated feature vectors
 if len(sys.argv) > 2:
-    fvs_dir = sys.argv[2] + '/'
+	fvs_dir = sys.argv[2] + '/'
 
 if not os.path.exists(fvs_dir):
 	os.makedirs(fvs_dir)
