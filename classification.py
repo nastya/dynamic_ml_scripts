@@ -24,7 +24,6 @@ api_fvs_path = "/home/nastya/test_scripts/compare_dyn_models/api_fvs/merge/"
 if len(sys.argv) > 2:
 	path = sys.argv[2]
 
-row_length = 261
 count = 0
 
 def is_essential_model(model_api):
@@ -113,6 +112,8 @@ load_models("base_models/droiddream_models.txt", "base_models/")
 filtered_models = []
 model_names = []
 
+action_model_fv_len = 0
+
 for i,f in enumerate(os.listdir(path)):
 	model = json.loads(open(path + f, 'r').read())
 	if not os.path.isfile(api_fvs_path + f + '.json'):
@@ -122,6 +123,7 @@ for i,f in enumerate(os.listdir(path)):
 	model_api = json.loads(open(api_fvs_path + f + '.json', 'r').read())
 	if not 'benign' in model["f_name"] and not is_essential_model(model_api):
 		continue
+	action_model_fv_len = len(model["fv"])
 	if model["fv"][0] == 0 or (not is_essential_model(model_api) and not 'benign' in model["f_name"]):
 		if model["f_name"] in base_models_list:
 			#print 'Base model too small, filtered out', model["f_name"]
@@ -140,10 +142,12 @@ for i,f in enumerate(os.listdir(path)):
 
 count = len(filtered_models)
 
+api = interesting_api.api_after_feature_selection
+row_length = action_model_fv_len + len(api.keys())
+
 X = np.empty((count, row_length))
 y = np.empty(count)
 
-api = interesting_api.api_after_feature_selection
 
 count_1 = 0
 count_2 = 0
