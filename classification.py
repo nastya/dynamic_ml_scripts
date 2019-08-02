@@ -14,6 +14,7 @@ import interesting_api
 '''
     Usage: ./classification.py <directory with feature vectors regarding actions model>
                                <directory with feature vectors regarding API model>
+                               <file listing malware family names>
 '''
 
 path = "/home/nastya/test_scripts/compare_dyn_models/compare_short/fvs_exp_drebin_anserverbot_droiddream_23.08/"
@@ -23,6 +24,10 @@ if len(sys.argv) > 1:
 api_fvs_path = "/home/nastya/test_scripts/compare_dyn_models/api_fvs/merge/"
 if len(sys.argv) > 2:
 	path = sys.argv[2]
+
+family_names = ["anserverbot", "opfake", "plankton", "droiddream"]
+if len(sys.argv) > 3:
+	family_names = open(sys.argv[3], 'r').read().split()
 
 count = 0
 
@@ -104,10 +109,8 @@ def load_models(filename, prefix):
 	for m in open(filename, 'r').readlines():
 		base_models_list.append(prefix + '/' + m[:-1])
 
-load_models("base_models/anserverbot_models.txt", "base_models/")
-load_models("base_models/opfake_models.txt", "base_models/")
-load_models("base_models/plankton_models.txt", "base_models/")
-load_models("base_models/droiddream_models.txt", "base_models/")
+for family_name in family_names:
+	load_models("base_models/" + family_name + "_models.txt", "base_models/")
 
 filtered_models = []
 model_names = []
@@ -140,18 +143,7 @@ X = np.empty((count, row_length))
 y = np.empty(count)
 
 
-count_1 = 0
-count_2 = 0
-count_3 = 0
-count_4 = 0
-count_5 = 0
-count_0 = 0
-count_1_indexes = []
-count_2_indexes = []
-count_3_indexes = []
-count_4_indexes = []
-count_5_indexes = []
-count_0_indexes = []
+_count = [0] * 5
 #TODO maybe round fvs here
 for i,f in enumerate(filtered_models):
 	model = json.loads(open(path + f, 'r').read())
@@ -161,32 +153,19 @@ for i,f in enumerate(filtered_models):
 		api_fv.append(model_api[elem])
 	X[i] = np.array(model["fv"] + api_fv)
 
-	if 'anserverbot' in model["f_name"]:
-		y[i] = 1
-		count_1 += 1
-		count_1_indexes.append(i)
-	if 'opfake' in model["f_name"]:
-		y[i] = 2
-		count_2 += 1
-		count_2_indexes.append(i)
-	if 'plankton' in model["f_name"]:
-		y[i] = 3
-		count_3 += 1
-		count_3_indexes.append(i)
-	if 'droiddream' in model["f_name"]:
-		y[i] = 4
-		count_4 += 1
-		count_4_indexes.append(i)
+	for j in range(len(family_names)):
+		family_name = family_names[j]
+		if family_name in model["f_name"]:
+			y[i] = j + 1
+			_count[j + 1] += 1
 	if 'benign' in model["f_name"]:
 		y[i] = 0
-		count_0 += 1
-		count_0_indexes.append(i)
+		_count[0] += 1
 
-print 'Anserverbot samples:', count_1
-print 'Opfake samples:', count_2
-print 'Plankton samples:', count_3
-print 'DroidDream samples:', count_4
-print 'benign samples:', count_0
+for j in range(len(family_names)):
+	family_name = family_names[j]
+	print family_name + " samples:", _count[j+1]
+print 'benign samples:', _count[0]
 
 _j = 0
 while _j < len(X[0]):

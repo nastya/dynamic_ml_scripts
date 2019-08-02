@@ -7,6 +7,7 @@ from DynamicActionsModel import AppModel
 
 '''
     Usage: ./make_fvs.py <directory with dynamic models for processing> <directory for storing feature vectors>
+                         <file listing malware family names>
 '''
 
 models = []
@@ -18,6 +19,10 @@ if len(sys.argv) > 1:
 fvs_dir = "test_time/" # where we store generated feature vectors
 if len(sys.argv) > 2:
 	fvs_dir = sys.argv[2] + '/'
+
+family_names = ["anserverbot", "opfake", "plankton", "droiddream"]
+if len(sys.argv) > 3:
+	family_names = open(sys.argv[3], 'r').read().split()
 
 if not os.path.exists(fvs_dir):
 	os.makedirs(fvs_dir)
@@ -64,10 +69,8 @@ def process_dir(directory):
 # 1) list of filenames of models (here we specify only base models)
 # 2) directory where those models are stored
 
-load_models("base_models/anserverbot_models.txt", "base_models/")
-load_models("base_models/opfake_models.txt", "base_models/")
-load_models("base_models/plankton_models.txt", "base_models/")
-load_models("base_models/droiddream_models.txt", "base_models/")
+for family_name in family_names:
+	load_models("base_models/" + family_name + "_models.txt", "base_models/")
 
 print 'Amount of models:', len(models)
 
