@@ -117,7 +117,7 @@ action_model_fv_len = 0
 for i,f in enumerate(os.listdir(path)):
 	model = json.loads(open(path + f, 'r').read())
 	if not os.path.isfile(api_fvs_path + f + '.json'):
-		#print model["f_name"], 'no corresponding API model'
+		#no corresponding API model
 		continue
 
 	model_api = json.loads(open(api_fvs_path + f + '.json', 'r').read())
@@ -125,15 +125,6 @@ for i,f in enumerate(os.listdir(path)):
 		continue
 	action_model_fv_len = len(model["fv"])
 	if model["fv"][0] == 0 or (not is_essential_model(model_api) and not 'benign' in model["f_name"]):
-		if model["f_name"] in base_models_list:
-			#print 'Base model too small, filtered out', model["f_name"]
-			pass
-		if not is_essential_model(model_api):
-			#print model["f_name"], 'filtered, empty api'
-			pass
-		else:
-			print model["f_name"], 'filtered, model too small'
-			pass
 		continue #filtering empty models
 	if model["f_name"] in base_models_list:
 		continue #filtering models used for fv building
